@@ -5,7 +5,7 @@ const App = {
 
   async init() {
     try {
-      const response = await fetch("data/content.json");
+      const response = await fetch("content.json");
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       this.data = await response.json();
@@ -19,7 +19,7 @@ const App = {
           ${CyberTrainerUI.brand()}
           <div class="error-box">
             <h2>CyberTrainer kon niet starten</h2>
-            <p>De content kon niet worden geladen. Controleer of <strong>data/content.json</strong> aanwezig is en of de site via Vercel wordt geopend.</p>
+            <p>De content kon niet worden geladen. Controleer of <strong>content.json</strong> aanwezig is en of de site via Vercel wordt geopend.</p>
           </div>
         </main>
       `);

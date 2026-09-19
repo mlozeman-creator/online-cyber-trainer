@@ -21,7 +21,7 @@ De configuratie bepaalt **voor wie** en **in welke context** de content wordt ge
 
 De eerste prototypeversie gebruikt één gecombineerd contentbestand:
 
-`data/content.json`
+`content.json`
 
 Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt de eerste versie eenvoudig te beheren. De structuur is al voorbereid op verdere uitbreiding.
 
