@@ -1,0 +1,91 @@
+{
+  "audiences": [
+    {
+      "id": "mbo-burgerschap",
+      "name": "MBO Burgerschap",
+      "description": "Oefenen met digitale situaties die aansluiten bij bewust en verantwoord digitaal handelen.",
+      "active": true
+    }
+  ],
+  "themes": [
+    {
+      "id": "avg",
+      "name": "AVG-proof werken",
+      "description": "Bewust en zorgvuldig omgaan met persoonsgegevens in de praktijk.",
+      "active": true
+    },
+    {
+      "id": "ai-prompting",
+      "name": "AI prompting",
+      "description": "Leren om doelgericht, specifiek en met voldoende context met AI te werken.",
+      "active": false
+    }
+  ],
+  "learningGoals": [
+    {
+      "id": "avg-persoonsgegevens",
+      "name": "AVG-proof omgaan met persoonsgegevens",
+      "description": "De student kan in een ICT-praktijksituatie herkennen hoe hij zorgvuldig met persoonsgegevens omgaat."
+    },
+    {
+      "id": "ai-prompting",
+      "name": "Doelgericht prompten",
+      "description": "De student kan een eenvoudige AI-prompt gericht verbeteren door doel, doelgroep, context en gewenste output te verduidelijken."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-01-avg",
+      "title": "AVG-proof werken",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeIds": [
+        "avg"
+      ],
+      "scenarioIds": [
+        "avg-001"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "avg-001",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeId": "avg",
+      "learningGoalId": "avg-persoonsgegevens",
+      "title": "Een ticket op je scherm",
+      "steps": [
+        {
+          "id": "avg-001-step-1",
+          "situation": "Je werkt op een ICT-helpdesk. Op je scherm staat een supportticket met gegevens van een gebruiker. Je moet even van je computer weg om iets te pakken. Je verwacht over ongeveer een minuut terug te zijn.",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Je laat het ticket openstaan. Je bent maar een minuut weg.",
+              "correct": false,
+              "feedback": "Tijd is niet het enige waar je rekening mee moet houden. Denk na over wie de gegevens op het scherm kan zien terwijl jij weg bent."
+            },
+            {
+              "id": "b",
+              "text": "Je vergrendelt je computer voordat je wegloopt.",
+              "correct": true,
+              "feedback": "Je voorkomt daarmee dat anderen zonder toestemming persoonsgegevens op jouw scherm kunnen bekijken."
+            },
+            {
+              "id": "c",
+              "text": "Je maakt een foto van het ticket zodat je onderweg verder kunt werken.",
+              "correct": false,
+              "feedback": "Denk na over wat er met de persoonsgegevens gebeurt wanneer je een foto van het ticket maakt en op je telefoon bewaart."
+            }
+          ]
+        }
+      ],
+      "reflection": {
+        "question": "Waarom is het vergrendelen van je computer belangrijk als je met persoonsgegevens werkt?"
+      }
+    }
+  ]
+}
