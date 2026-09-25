@@ -1,3 +1,5 @@
+const APP_VERSION = "v0.2.0";
+
 const App = {
   data: null,
   selectedAudienceId: null,
@@ -38,6 +40,11 @@ const App = {
             CyberTrainer laat je oefenen met digitale situaties uit de praktijk.
             Lees de situatie, denk na over de gevolgen en maak een bewuste keuze.
           </p>
+
+          <div class="version">
+            ${APP_VERSION}
+          </div>
+
           <div class="actions">
             <button class="btn btn-primary" onclick="App.showAudiences()">Start training</button>
           </div>
