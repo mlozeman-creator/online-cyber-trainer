@@ -1,352 +1,1022 @@
-:root {
-  --bg: #071018;
-  --panel: #0d1822;
-  --panel-2: #111f2b;
-  --border: #1d394b;
-  --text: #eef8ff;
-  --muted: #91a9b8;
-  --accent: #29d3ff;
-  --accent-2: #57f0d0;
-  --danger: #ff7b8f;
-  --success: #5df2b0;
-  --shadow: 0 18px 50px rgba(0, 0, 0, .35);
-}
+/*
+========================================
+CyberTrainer
+Style
+========================================
+*/
+
+/*
+========================================
+Basis
+========================================
+*/
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  padding: 0;
   min-height: 100vh;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
   background:
-    radial-gradient(circle at 20% 10%, rgba(41, 211, 255, .10), transparent 30%),
-    radial-gradient(circle at 80% 80%, rgba(87, 240, 208, .07), transparent 28%),
-    var(--bg);
-  color: var(--text);
+    radial-gradient(
+      circle at top right,
+      rgba(0, 180, 255, 0.08),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #06141d,
+      #081b26 45%,
+      #06131c
+    );
+
+  color: #eef7fb;
+
+  font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
 }
 
-button {
-  font: inherit;
-}
 
-.app-shell {
-  min-height: 100vh;
-}
+/*
+========================================
+Container
+========================================
+*/
 
 .container {
-  width: min(1100px, calc(100% - 32px));
+  width: 100%;
+  max-width: 1180px;
+
   margin: 0 auto;
-  padding: 28px 0 48px;
+
+  padding: 32px 28px 60px;
 }
+
+
+/*
+========================================
+Brand
+========================================
+*/
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 34px;
-}
+  justify-content: space-between;
 
-.brand-mark {
-  width: 44px;
-  height: 44px;
-  border: 1px solid var(--accent);
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  color: var(--accent);
-  box-shadow: 0 0 24px rgba(41, 211, 255, .16);
-  font-weight: 800;
+  gap: 24px;
+
+  margin-bottom: 55px;
 }
 
 .brand-name {
-  font-size: 1.1rem;
-  letter-spacing: .12em;
+  color: #f3fbff;
+
+  font-size: 26px;
   font-weight: 800;
+
+  letter-spacing: 4px;
+
+  white-space: nowrap;
 }
 
 .brand-tagline {
-  color: var(--muted);
-  font-size: .85rem;
-  margin-top: 2px;
+  color: #9bb3bf;
+
+  font-size: 16px;
+  line-height: 1.4;
+
+  max-width: 240px;
 }
 
-.hero {
-  padding: 38px;
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  background: linear-gradient(145deg, rgba(17, 31, 43, .96), rgba(7, 16, 24, .96));
-  box-shadow: var(--shadow);
-}
+
+/*
+========================================
+Eyebrow
+========================================
+*/
 
 .eyebrow {
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: .14em;
-  font-size: .75rem;
+  margin-bottom: 10px;
+
+  color: #39d5ff;
+
+  font-size: 14px;
   font-weight: 800;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
-h1, h2, h3 {
-  margin-top: 0;
+
+/*
+========================================
+Hero
+========================================
+*/
+
+.hero {
+  max-width: 900px;
+
+  padding: 20px 0;
 }
 
-h1 {
-  font-size: clamp(2.2rem, 5vw, 4.4rem);
-  line-height: .98;
-  margin-bottom: 18px;
+.hero h1 {
+  margin: 0 0 20px;
+
+  color: #f3fbff;
+
+  font-size: clamp(38px, 6vw, 68px);
+
+  line-height: 1.04;
+
+  letter-spacing: -1.5px;
 }
 
-h2 {
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
+.hero h2 {
+  margin: 0 0 18px;
+
+  color: #f3fbff;
+
+  font-size: clamp(30px, 5vw, 48px);
+
+  line-height: 1.1;
 }
 
 .lead {
   max-width: 720px;
-  color: #c9d9e2;
-  font-size: 1.05rem;
+
+  margin: 0;
+
+  color: #a9c0ca;
+
+  font-size: 18px;
+
   line-height: 1.7;
 }
 
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+
+/*
+========================================
+Versie
+========================================
+*/
+
+.version {
   margin-top: 28px;
+
+  color: #6e8995;
+
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
-.btn {
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 12px 18px;
-  background: var(--panel-2);
-  color: var(--text);
-  cursor: pointer;
-  transition: .18s ease;
+
+/*
+========================================
+Training header
+========================================
+*/
+
+.training-header {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  margin-bottom: 30px;
 }
 
-.btn:hover {
-  transform: translateY(-1px);
-  border-color: var(--accent);
+.training-header h2 {
+  margin: 0;
+
+  color: #f3fbff;
+
+  font-size: clamp(28px, 4vw, 42px);
+
+  line-height: 1.15;
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, #19b9e6, #27d7c0);
-  color: #031016;
-  border: 0;
-  font-weight: 800;
+
+/*
+========================================
+Progress
+========================================
+*/
+
+.progress {
+  flex-shrink: 0;
+
+  padding-top: 8px;
+
+  color: #829ba7;
+
+  font-size: 15px;
 }
 
-.btn-ghost {
-  background: transparent;
-}
+
+/*
+========================================
+Grid
+========================================
+*/
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 16px;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(250px, 1fr)
+    );
+
+  gap: 18px;
 }
 
+
+/*
+========================================
+Cards
+========================================
+*/
+
 .card {
-  border: 1px solid var(--border);
+  background:
+    linear-gradient(
+      145deg,
+      rgba(18, 48, 61, 0.92),
+      rgba(9, 31, 41, 0.92)
+    );
+
+  border: 1px solid rgba(71, 188, 224, 0.16);
+
   border-radius: 18px;
-  padding: 22px;
-  background: rgba(13, 24, 34, .9);
-  transition: .18s ease;
+
+  padding: 24px;
+
+  color: #eef7fb;
+
+  box-shadow:
+    0 12px 35px rgba(0, 0, 0, 0.18);
 }
 
 .card.selectable {
   cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
 }
 
 .card.selectable:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(57, 213, 255, 0.5);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(19, 58, 73, 0.96),
+      rgba(9, 35, 47, 0.96)
+    );
 }
 
 .card-title {
-  font-size: 1.15rem;
-  font-weight: 800;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+
+  color: #f2fbff;
+
+  font-size: 21px;
+  font-weight: 700;
 }
 
 .card-text {
-  color: var(--muted);
-  line-height: 1.55;
+  color: #9eb7c1;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+}
+
+
+/*
+========================================
+Buttons
+========================================
+*/
+
+.actions {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin-top: 22px;
+}
+
+.btn {
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 13px 20px;
+
+  font-family: inherit;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    background 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background:
+    linear-gradient(
+      135deg,
+      #11bfe9,
+      #1788e8
+    );
+
+  color: #04131b;
+
+  box-shadow:
+    0 8px 22px rgba(17, 191, 233, 0.2);
+}
+
+.btn-ghost {
+  background:
+    rgba(255, 255, 255, 0.04);
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.12);
+
+  color: #b8cbd3;
+}
+
+
+/*
+========================================
+Scenario
+========================================
+*/
+
+.scenario {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 28px;
+
+  padding: 20px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15, 43, 55, 0.96),
+      rgba(7, 27, 36, 0.96)
+    );
+
+  border: 1px solid
+    rgba(75, 192, 225, 0.14);
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.22);
+}
+
+
+/*
+========================================
+Scenario visual
+========================================
+*/
+
+.scenario-visual {
+  min-width: 0;
+
+  display: flex;
+
+  align-items: stretch;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255, 255, 255, 0.03);
+}
+
+
+/*
+========================================
+Scenario afbeelding
+========================================
+*/
+
+.scenario-image {
+  display: block;
+
+  width: 100%;
+
+  /*
+  Desktop:
+  de afbeelding blijft compact.
+  */
+
+  max-height: 320px;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  border-radius: 16px;
+}
+
+
+/*
+========================================
+Tijdelijke placeholder
+========================================
+*/
+
+.visual-placeholder {
+  width: 100%;
+  min-height: 260px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(20, 62, 77, 0.9),
+      rgba(8, 28, 38, 0.95)
+    );
+
+  color: #7f9ca8;
+}
+
+.visual-placeholder strong {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #a9c4ce;
+
+  font-size: 18px;
+}
+
+.visual-placeholder span {
+  font-size: 14px;
+}
+
+
+/*
+========================================
+Scenario body
+========================================
+*/
+
+.scenario-body {
+  min-width: 0;
+
+  padding: 8px 8px 8px 4px;
 }
 
 .meta {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 8px;
-  margin: 16px 0;
+
+  margin-bottom: 22px;
 }
 
 .tag {
   display: inline-flex;
-  border: 1px solid var(--border);
+
+  align-items: center;
+
+  min-height: 28px;
+
+  padding: 5px 10px;
+
   border-radius: 999px;
-  padding: 5px 9px;
-  color: #b9d4e1;
-  font-size: .76rem;
-}
 
-.training-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: flex-start;
-  margin-bottom: 18px;
-}
-
-.progress {
-  color: var(--muted);
-  font-size: .85rem;
-}
-
-.scenario {
-  border: 1px solid var(--border);
-  border-radius: 22px;
-  overflow: hidden;
-  background: var(--panel);
-  box-shadow: var(--shadow);
-}
-
-.scenario-visual {
-  min-height: 220px;
-  display: grid;
-  place-items: center;
-  padding: 36px;
   background:
-    linear-gradient(135deg, rgba(41, 211, 255, .12), rgba(87, 240, 208, .04)),
-    #0a151e;
-  border-bottom: 1px solid var(--border);
-}
+    rgba(43, 194, 235, 0.1);
 
-.visual-placeholder {
-  width: min(560px, 100%);
-  min-height: 150px;
-  border: 1px dashed #2d586d;
-  border-radius: 18px;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  color: #7091a2;
-  padding: 20px;
-}
+  border: 1px solid
+    rgba(43, 194, 235, 0.18);
 
-.scenario-body {
-  padding: 30px;
+  color: #69dfff;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 0.5px;
 }
 
 .situation {
-  color: #dceaf1;
-  line-height: 1.75;
-  white-space: pre-line;
+  margin: 0 0 25px;
+
+  color: #d8e7ec;
+
+  font-size: 18px;
+
+  line-height: 1.7;
 }
 
+.question {
+  margin: 0 0 18px;
+
+  color: #f1faff;
+
+  font-size: 22px;
+
+  line-height: 1.35;
+}
+
+
+/*
+========================================
+Antwoorden
+========================================
+*/
+
 .choice-list {
-  display: grid;
+  display: flex;
+
+  flex-direction: column;
+
   gap: 12px;
-  margin-top: 24px;
 }
 
 .choice {
   width: 100%;
-  text-align: left;
-  border: 1px solid var(--border);
-  border-radius: 14px;
+
   padding: 16px 18px;
-  background: #0f202c;
-  color: var(--text);
-  cursor: pointer;
+
+  border: 1px solid
+    rgba(116, 178, 198, 0.2);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  color: #d9e9ee;
+
+  font-family: inherit;
+
+  font-size: 16px;
+
   line-height: 1.5;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
 }
 
 .choice:hover {
-  border-color: var(--accent);
-  background: #122a38;
+  transform: translateY(-1px);
+
+  border-color:
+    rgba(57, 213, 255, 0.5);
+
+  background:
+    rgba(35, 177, 218, 0.08);
 }
 
+.choice:disabled {
+  cursor: default;
+}
+
+
+/*
+========================================
+Feedback
+========================================
+*/
+
 .feedback {
-  margin-top: 22px;
-  padding: 20px;
-  border-radius: 16px;
-  border: 1px solid var(--border);
+  margin-top: 20px;
+}
+
+.feedback.error,
+.feedback.success {
+  padding: 18px;
+
+  border-radius: 15px;
+
+  line-height: 1.6;
 }
 
 .feedback.error {
-  border-color: rgba(255, 123, 143, .55);
-  background: rgba(255, 123, 143, .06);
+  background:
+    rgba(214, 91, 91, 0.1);
+
+  border: 1px solid
+    rgba(214, 91, 91, 0.25);
+
+  color: #e4c5c5;
 }
 
 .feedback.success {
-  border-color: rgba(93, 242, 176, .55);
-  background: rgba(93, 242, 176, .06);
+  background:
+    rgba(48, 204, 146, 0.1);
+
+  border: 1px solid
+    rgba(48, 204, 146, 0.25);
+
+  color: #c7eadc;
 }
 
 .feedback-title {
-  font-size: 1.35rem;
-  font-weight: 900;
   margin-bottom: 8px;
+
+  font-size: 18px;
+  font-weight: 800;
 }
 
+.feedback.success .feedback-title {
+  color: #53e0a7;
+}
+
+.feedback.error .feedback-title {
+  color: #ff9999;
+}
+
+
+/*
+========================================
+Reflection
+========================================
+*/
+
 .reflection {
-  margin-top: 20px;
-  padding: 24px;
-  border: 1px solid var(--border);
+  max-width: 760px;
+
+  margin-top: 30px;
+
+  padding: 22px;
+
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.08);
+
   border-radius: 18px;
-  background: #0c1923;
+}
+
+.reflection label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #c7dbe2;
+
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .reflection textarea {
   width: 100%;
-  min-height: 130px;
-  margin-top: 14px;
+
+  min-height: 150px;
+
   resize: vertical;
-  border: 1px solid var(--border);
+
+  padding: 15px;
+
+  border:
+    1px solid
+    rgba(128, 188, 205, 0.2);
+
   border-radius: 12px;
-  background: #071018;
-  color: var(--text);
-  padding: 14px;
-  font: inherit;
+
+  background:
+    rgba(0, 0, 0, 0.18);
+
+  color: #eef7fb;
+
+  font-family: inherit;
+
+  font-size: 15px;
+
+  line-height: 1.6;
 }
+
+.reflection textarea:focus {
+  outline: none;
+
+  border-color:
+    rgba(57, 213, 255, 0.6);
+}
+
+.reflection textarea::placeholder {
+  color: #68818c;
+}
+
+
+/*
+========================================
+Notice
+========================================
+*/
 
 .notice {
-  margin-top: 18px;
-  color: var(--muted);
-  font-size: .9rem;
+  margin-top: 20px;
+
+  color: #718b96;
+
+  font-size: 13px;
+
+  line-height: 1.5;
 }
+
+
+/*
+========================================
+Foutmelding
+========================================
+*/
 
 .error-box {
+  max-width: 700px;
+
   padding: 24px;
-  border: 1px solid rgba(255, 123, 143, .5);
+
+  border:
+    1px solid
+    rgba(255, 100, 100, 0.25);
+
   border-radius: 16px;
-  background: rgba(255, 123, 143, .06);
+
+  background:
+    rgba(255, 70, 70, 0.08);
+
+  color: #e8c5c5;
 }
 
-@media (max-width: 650px) {
+.error-box h2 {
+  margin-top: 0;
+
+  color: #ffaaaa;
+}
+
+
+/*
+========================================
+Mobiel
+========================================
+*/
+
+@media (max-width: 800px) {
+
   .container {
-    width: min(100% - 20px, 1100px);
-    padding-top: 18px;
+    padding: 22px 18px 45px;
   }
 
-  .hero {
-    padding: 24px;
+
+  /*
+  Brand wordt op mobiel onder elkaar gezet.
+  */
+
+  .brand {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 7px;
+
+    margin-bottom: 38px;
   }
 
-  .scenario-body {
-    padding: 22px;
+  .brand-name {
+    font-size: 22px;
+
+    letter-spacing: 3px;
   }
+
+  .brand-tagline {
+    max-width: 260px;
+
+    font-size: 15px;
+  }
+
+
+  /*
+  Training header
+  */
 
   .training-header {
-    display: block;
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-bottom: 22px;
+  }
+
+  .progress {
+    padding-top: 0;
+  }
+
+
+  /*
+  Scenario wordt één kolom.
+  */
+
+  .scenario {
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+
+    padding: 12px;
+
+    border-radius: 18px;
+  }
+
+
+  /*
+  Afbeelding op mobiel:
+  duidelijk kleiner en geschikt
+  voor een telefoonscherm.
+  */
+
+  .scenario-image {
+    width: 100%;
+
+    height: 220px;
+
+    max-height: 220px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    border-radius: 12px;
+  }
+
+
+  .visual-placeholder {
+    min-height: 180px;
+
+    border-radius: 12px;
+  }
+
+
+  .scenario-body {
+    padding: 5px 4px 8px;
+  }
+
+
+  .situation {
+    font-size: 16px;
+
+    line-height: 1.65;
+  }
+
+
+  .question {
+    font-size: 20px;
+  }
+
+
+  .choice {
+    padding: 15px;
+
+    font-size: 15px;
   }
 }
 
-.question {
-  margin: 1.5rem 0 1rem;
-  font-size: 1.25rem;
-  line-height: 1.35;
+
+/*
+========================================
+Kleine telefoons
+========================================
+*/
+
+@media (max-width: 480px) {
+
+  .container {
+    padding:
+      18px
+      14px
+      35px;
+  }
+
+
+  .brand {
+    margin-bottom: 30px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+
+    letter-spacing: 2.5px;
+  }
+
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+
+
+  /*
+  Op kleine telefoons nog iets
+  compacter.
+  */
+
+  .scenario {
+    padding: 9px;
+  }
+
+  .scenario-image {
+    height: 190px;
+
+    max-height: 190px;
+
+    border-radius: 10px;
+  }
+
+
+  .scenario-body {
+    padding:
+      4px
+      3px
+      6px;
+  }
+
+
+  .situation {
+    font-size: 15px;
+  }
+
+
+  .question {
+    font-size: 18px;
+  }
+
+
+  .choice {
+    padding: 14px;
+
+    font-size: 15px;
+  }
+
+
+  .feedback.error,
+  .feedback.success {
+    padding: 15px;
+  }
 }
