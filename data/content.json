@@ -109,6 +109,7 @@
       "themeId": "ai-prompting",
       "learningGoalId": "ai-prompting",
       "title": "Een betere prompt maken",
+      "image": "assets/images/ai-prompting.png",
       "steps": [
         {
           "id": "ai-prompting-001-step-1",
