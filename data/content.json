@@ -70,6 +70,7 @@
       "themeId": "avg",
       "learningGoalId": "avg-persoonsgegevens",
       "title": "Een ticket op je scherm",
+      "image": "assets/images/avg-helpdesk.png",
       "steps": [
         {
           "id": "avg-001-step-1",
