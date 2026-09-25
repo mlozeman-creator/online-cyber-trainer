@@ -260,7 +260,8 @@ Cards
       rgba(9, 31, 41, 0.92)
     );
 
-  border: 1px solid rgba(71, 188, 224, 0.16);
+  border: 1px solid
+    rgba(71, 188, 224, 0.16);
 
   border-radius: 18px;
 
@@ -409,6 +410,12 @@ Scenario
 
   box-shadow:
     0 18px 50px rgba(0, 0, 0, 0.22);
+
+  /*
+  De twee kolommen mogen hun eigen
+  natuurlijke hoogte behouden.
+  */
+  align-items: start;
 }
 
 
@@ -423,15 +430,14 @@ Scenario visual
 
   display: flex;
 
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: center;
 
   overflow: hidden;
 
   border-radius: 16px;
 
-  background:
-    rgba(255, 255, 255, 0.03);
+  background: transparent;
 }
 
 
@@ -445,11 +451,6 @@ Scenario afbeelding
   display: block;
 
   width: 100%;
-
-  /*
-  Desktop:
-  de afbeelding blijft compact.
-  */
 
   max-height: 320px;
 
@@ -876,13 +877,15 @@ Mobiel
     padding: 12px;
 
     border-radius: 18px;
+
+    align-items: start;
   }
 
 
   /*
   Afbeelding op mobiel:
-  duidelijk kleiner en geschikt
-  voor een telefoonscherm.
+  compact en geschikt voor een
+  telefoonscherm.
   */
 
   .scenario-image {
@@ -979,6 +982,8 @@ Kleine telefoons
 
   .scenario {
     padding: 9px;
+
+    align-items: start;
   }
 
   .scenario-image {
