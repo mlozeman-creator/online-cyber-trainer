@@ -2,6 +2,7 @@ const App = {
   data: null,
   selectedAudienceId: null,
   selectedThemeId: null,
+  shuffledChoices: {},
 
   async init() {
     try {
@@ -121,6 +122,13 @@ const App = {
 
   startScenario(scenarioId) {
     CyberTrainerEngine.startScenario(scenarioId);
+
+    /*
+    Bij een nieuwe training beginnen we met een
+    lege shuffle-opslag.
+    */
+    this.shuffledChoices = {};
+
     this.renderScenario();
   },
 
@@ -129,6 +137,21 @@ const App = {
     const step = CyberTrainerEngine.getCurrentStep();
     const theme = CyberTrainerEngine.getTheme(scenario.themeId);
     const goal = CyberTrainerEngine.getLearningGoal(scenario.learningGoalId);
+
+    /*
+    Iedere stap krijgt één vaste willekeurige
+    antwoordvolgorde.
+
+    Als deze stap al eerder is weergegeven,
+    gebruiken we dezelfde volgorde.
+    */
+    if (!this.shuffledChoices[step.id]) {
+      this.shuffledChoices[step.id] =
+        CyberTrainerUI.shuffleAnswers(step.choices);
+    }
+
+    const choices =
+      this.shuffledChoices[step.id];
 
     CyberTrainerUI.render(`
       <main class="container">
@@ -165,7 +188,7 @@ const App = {
             ${step.question ? `<h3 class="question">${CyberTrainerUI.escapeHtml(step.question)}</h3>` : ""}
 
             <div class="choice-list">
-              ${step.choices.map(choice => `
+              ${choices.map(choice => `
                 <button class="choice" onclick="App.handleChoice('${choice.id}')">
                   ${CyberTrainerUI.escapeHtml(choice.text)}
                 </button>
