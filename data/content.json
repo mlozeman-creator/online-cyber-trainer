@@ -120,7 +120,7 @@
               "id": "a",
               "text": "Voor wie de uitleg is en wat voor uitleg je wilt.",
               "correct": true,
-              "feedback": "GOED GEKOZEN. Een goede prompt maakt duidelijk wat je wilt bereiken en welk resultaat je verwacht."
+              "feedback": "Een goede prompt maakt duidelijk wat je wilt bereiken en welk resultaat je verwacht."
             },
             {
               "id": "b",
@@ -145,7 +145,7 @@
               "id": "a",
               "text": "Je bent ICT-supportmedewerker.",
               "correct": true,
-              "feedback": "GOED GEKOZEN. Met een rol geef je AI extra richting voor de manier waarop het antwoord wordt opgesteld."
+              "feedback": "Met een rol geef je AI extra richting voor de manier waarop het antwoord wordt opgesteld."
             },
             {
               "id": "b",
@@ -170,7 +170,7 @@
               "id": "a",
               "text": "Geef maximaal 5 stappen en gebruik eenvoudige taal. Geef eerst een korte uitleg en daarna de stappen.",
               "correct": true,
-              "feedback": "GOED GEKOZEN. Door het gewenste resultaat concreet te beschrijven, stuur je op lengte, taalgebruik en opbouw."
+              "feedback": "Door het gewenste resultaat concreet te beschrijven, stuur je op lengte, taalgebruik en opbouw."
             },
             {
               "id": "b",
@@ -201,7 +201,7 @@
               "id": "b",
               "text": "Je bekijkt wat ontbreekt en past je prompt aan.",
               "correct": true,
-              "feedback": "GOED GEKOZEN. Prompten is een iteratief proces: je bekijkt het resultaat, bepaalt wat beter kan en past je prompt aan."
+              "feedback": "Prompten is een iteratief proces: je bekijkt het resultaat, bepaalt wat beter kan en past je prompt aan."
             },
             {
               "id": "c",
@@ -220,7 +220,7 @@
               "id": "a",
               "text": "Een voorbeeld geven van de gewenste vorm.",
               "correct": true,
-              "feedback": "GOED GEKOZEN. Een voorbeeld kan AI helpen om beter te begrijpen welke vorm en inhoud je verwacht."
+              "feedback": "Een voorbeeld kan AI helpen om beter te begrijpen welke vorm en inhoud je verwacht."
             },
             {
               "id": "b",
@@ -245,7 +245,7 @@
               "id": "a",
               "text": "De prompt stap voor stap verbeterd.",
               "correct": true,
-              "feedback": "GOED GEKOZEN. Je begon met een eenvoudige vraag en voegde steeds informatie toe om het gewenste resultaat duidelijker te maken."
+              "feedback": "Je begon met een eenvoudige vraag en voegde steeds informatie toe om het gewenste resultaat duidelijker te maken."
             },
             {
               "id": "b",
