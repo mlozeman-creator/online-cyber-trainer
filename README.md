@@ -27,13 +27,15 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 
 ## P1-prototype
 
-Eerste inhoud:
+Huidige inhoud in v0.3.0:
 
 - doelgroep: MBO Burgerschap
 - thema: AVG-proof werken
 - scenario: Een ticket op je scherm
+- thema: AI prompting
+- scenario: Doelgericht prompten in zes leerstappen
 
-AI prompting staat als toekomstig thema in de contentstructuur, maar is nog niet actief in de interface.
+CyberTrainer v0.2.0 vormde het eerste stabiele technische ijkpunt. In v0.3.0 is AI prompting als tweede inhoudelijke toepassing opgenomen.
 
 ## Ontwikkelafspraken
 
@@ -51,10 +53,18 @@ Repository: GitHub
 Hosting: Vercel  
 Productiedomein: https://online-cyber-trainer.vercel.app
 
-## v0.1.3 – AI prompting
-- Tweede werkende scenario toegevoegd: AI prompting.
-- Zes korte oefenstappen rond doel, rol, output, evalueren en iteratief verbeteren.
-- Fout antwoord leidt tot feedback en opnieuw proberen.
-- Correct antwoord leidt tot uitleg en doorgaan.
-- Reflectievraag aan het einde.
-- Bestaande engine en content-driven structuur blijven behouden.
+## Versiegeschiedenis
+
+### v0.3.0 – AI prompting actief
+
+- AI prompting opgenomen als tweede werkend thema.
+- Zes leerstappen rond doel, rol, output, voorwaarden, beoordelen en verbeteren.
+- Content-driven architectuur blijft behouden.
+- Versienummer op het startscherm bijgewerkt naar v0.3.0.
+
+### v0.2.0 – Eerste stabiele technische basis
+
+- Basisflow voor doelgroep, thema en scenario.
+- Willekeurige antwoordvolgorde.
+- Feedback, opnieuw proberen en reflectie.
+- Content via JSON.
