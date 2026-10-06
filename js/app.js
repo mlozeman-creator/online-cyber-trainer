@@ -1,4 +1,4 @@
-const APP_VERSION = "v0.2.0";
+const APP_VERSION = "v0.3.0";
 
 const App = {
   data: null,
