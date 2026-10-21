@@ -475,7 +475,9 @@
       ],
       "reflection": {
         "question": "Welke situatie vond je het lastigst, waarom twijfelde je en wat zou je in het echt doen?"
-      }
+      },
+      "image": "assets/images/phishing-schoolmail.png",
+      "imageAlt": "Fotorealistische illustratie van een dringend ogende e-mail met verdachte afzender."
     },
     {
       "id": "social-media-001",
@@ -614,7 +616,9 @@
       ],
       "reflection": {
         "question": "Welke situatie vond je het lastigst? Wat zou jij voortaan anders doen voordat je iets deelt op sociale media?"
-      }
+      },
+      "image": "assets/images/social-privacy-sharing.png",
+      "imageAlt": "Fotorealistische illustratie van een student die een gedeeld beeld op zijn telefoon bekijkt."
     },
     {
       "id": "deepfakes-001",
@@ -753,7 +757,9 @@
       ],
       "reflection": {
         "question": "Bij welke situatie zou jij het meest twijfelen? Hoe controleer je voortaan of een video, foto of spraakbericht betrouwbaar is?"
-      }
+      },
+      "image": "assets/images/deepfake-docentvideo.png",
+      "imageAlt": "Fotorealistische illustratie van een mogelijk gemanipuleerde video van een docent op een laptop."
     }
   ]
 }
