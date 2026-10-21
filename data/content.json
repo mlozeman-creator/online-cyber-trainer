@@ -209,8 +209,8 @@
               "feedback": "Denk nog eens na. Een lange prompt is niet automatisch een duidelijke prompt."
             }
           ],
-          "image": "assets/images/ai-prompting.png",
-          "imageAlt": "Korte AI-prompt voor MFA-uitleg"
+          "image": "assets/images/ai-prompting-001-vraag-1-uniek.png",
+          "imageAlt": "Gesimuleerd ai-chat-beeld bij vraag 1: Leg uit hoe je MFA aanzet.. Antwoord: MFA is een extra beveiligingslaag...."
         },
         {
           "id": "ai-prompting-001-step-2",
@@ -236,8 +236,8 @@
               "feedback": "Denk nog eens na. Dit zegt nog niet vanuit welke rol AI de opdracht moet uitvoeren."
             }
           ],
-          "image": "assets/images/ai-prompting-001-vraag-2.jpg",
-          "imageAlt": "De rol ICT-supportmedewerker toevoegen"
+          "image": "assets/images/ai-prompting-001-vraag-2-uniek.png",
+          "imageAlt": "Gesimuleerd ai-chat-beeld bij vraag 2: Je bent ICT-supportmedewerker.. Doelgroep: mbo-student."
         },
         {
           "id": "ai-prompting-001-step-3",
@@ -263,8 +263,8 @@
               "feedback": "Denk nog eens na. Je wilt juist concrete voorwaarden geven voor het gewenste resultaat."
             }
           ],
-          "image": "assets/images/ai-prompting-001-vraag-3.jpg",
-          "imageAlt": "Een duidelijke uitleg in vijf stappen"
+          "image": "assets/images/ai-prompting-001-vraag-3-uniek.png",
+          "imageAlt": "Gesimuleerd ai-chat-beeld bij vraag 3: Microsoft 365 · MFA. Maximaal 5 stappen · eenvoudige taal."
         },
         {
           "id": "ai-prompting-001-step-4",
@@ -290,8 +290,8 @@
               "feedback": "Denk nog eens na. Je kunt de bestaande prompt gebruiken als basis en gericht verbeteren."
             }
           ],
-          "image": "assets/images/ai-prompting-001-vraag-4.jpg",
-          "imageAlt": "Een AI-antwoord beoordelen en verbeteren"
+          "image": "assets/images/ai-prompting-001-vraag-4-uniek.png",
+          "imageAlt": "Gesimuleerd ai-chat-beeld bij vraag 4: AI-antwoord: 12 lange alinea’s. Maak dit korter en concreter.."
         },
         {
           "id": "ai-prompting-001-step-5",
@@ -317,8 +317,8 @@
               "feedback": "Denk nog eens na. Extra tekst is niet automatisch extra duidelijkheid."
             }
           ],
-          "image": "assets/images/ai-prompting-001-vraag-5.jpg",
-          "imageAlt": "Voorbeeldoutput voor een AI-prompt"
+          "image": "assets/images/ai-prompting-001-vraag-5-uniek.png",
+          "imageAlt": "Gesimuleerd ai-chat-beeld bij vraag 5: Doel · Rol · Doelgroep. Uitvoer: vaste genummerde stappen."
         },
         {
           "id": "ai-prompting-001-step-6",
@@ -344,8 +344,8 @@
               "feedback": "Denk nog eens na. Het doel is niet om zoveel mogelijk informatie toe te voegen, maar om gericht de juiste informatie toe te voegen."
             }
           ],
-          "image": "assets/images/ai-prompting-001-vraag-6.jpg",
-          "imageAlt": "Drie versies van dezelfde prompt vergelijken"
+          "image": "assets/images/ai-prompting-001-vraag-6-uniek.png",
+          "imageAlt": "Gesimuleerd ai-chat-beeld bij vraag 6: V1: Leg MFA uit. V2: Microsoft 365 voor mbo."
         }
       ],
       "reflection": {
@@ -385,8 +385,8 @@
               "feedback": "Je controleert het verzoek zonder de verdachte link te gebruiken."
             }
           ],
-          "image": "assets/images/phishing-001-vraag-1.jpg",
-          "imageAlt": "Dringende schoolmail met link"
+          "image": "assets/images/phishing-001-vraag-1-uniek.png",
+          "imageAlt": "Gesimuleerd e-mail-beeld bij vraag 1: ICT-school <support@school-helpdesk24.com>. Verifieer vandaag vóór 18:00 je account."
         },
         {
           "id": "phishing-001-step-2",
@@ -412,8 +412,8 @@
               "feedback": "Antwoorden op een mogelijk vervalst bericht is geen onafhankelijke controle en deelt mogelijk gegevens met oplichters."
             }
           ],
-          "image": "assets/images/phishing-001-vraag-2.jpg",
-          "imageAlt": "Verdacht verzoek over stagevergoeding"
+          "image": "assets/images/phishing-001-vraag-2-uniek.png",
+          "imageAlt": "Gesimuleerd e-mail-beeld bij vraag 2: Administratie stage <betaling@stage-verify.net>. Controleer IBAN en upload identiteitsbewijs."
         },
         {
           "id": "phishing-001-step-3",
@@ -439,8 +439,8 @@
               "feedback": "Een professioneel ogende betaalpagina bewijst niet dat de link betrouwbaar is."
             }
           ],
-          "image": "assets/images/phishing-001-vraag-3.jpg",
-          "imageAlt": "Sms met betaalverzoek voor pakket"
+          "image": "assets/images/phishing-001-vraag-3-uniek.png",
+          "imageAlt": "Gesimuleerd sms-beeld bij vraag 3: Pakketdienst: bezorging mislukt. Betaal € 1,95 voor herbezorging."
         },
         {
           "id": "phishing-001-step-4",
@@ -466,8 +466,8 @@
               "feedback": "Je verifieert de identiteit onafhankelijk voordat je geld overmaakt."
             }
           ],
-          "image": "assets/images/phishing-001-vraag-4.jpg",
-          "imageAlt": "WhatsApp-bericht van onbekend nummer"
+          "image": "assets/images/phishing-001-vraag-4-uniek.png",
+          "imageAlt": "Gesimuleerd whatsapp-beeld bij vraag 4: Hoi! Mijn telefoon is kapot.. Kun je € 75 voorschieten?."
         },
         {
           "id": "phishing-001-step-5",
@@ -493,8 +493,8 @@
               "feedback": "Misbruik kan al plaatsvinden voordat je het opmerkt. Onderneem direct actie."
             }
           ],
-          "image": "assets/images/phishing-001-vraag-5.jpg",
-          "imageAlt": "Inloggegevens ingevoerd op een verdachte website"
+          "image": "assets/images/phishing-001-vraag-5-uniek.png",
+          "imageAlt": "Gesimuleerd browser-beeld bij vraag 5: Accountnaam: student@school.nl. Wachtwoord: •••••••••."
         }
       ],
       "reflection": {
@@ -536,8 +536,8 @@
               "feedback": "Ook volgers kunnen beelden opslaan of doorsturen. Een beperkte doelgroep vervangt toestemming niet."
             }
           ],
-          "image": "assets/images/social-media-001-vraag-1.jpg",
-          "imageAlt": "Groepsfoto delen zonder toestemming"
+          "image": "assets/images/social-media-001-vraag-1-uniek.png",
+          "imageAlt": "Gesimuleerd instagram-beeld bij vraag 1: Groepsfoto na schoolactiviteit. Klasgenoot duidelijk herkenbaar."
         },
         {
           "id": "social-media-001-step-2",
@@ -563,8 +563,8 @@
               "feedback": "Nieuwe volgers beperken verandert niet automatisch de zichtbaarheid van openbare berichten."
             }
           ],
-          "image": "assets/images/social-media-001-vraag-2.jpg",
-          "imageAlt": "Openbare Instagram-profielinformatie"
+          "image": "assets/images/social-media-001-vraag-2-uniek.png",
+          "imageAlt": "Gesimuleerd profiel-beeld bij vraag 2: Naam · school · woonplaats. Elke dag zichtbaar: vaste locaties."
         },
         {
           "id": "social-media-001-step-3",
@@ -590,8 +590,8 @@
               "feedback": "Je verifieert de afzender onafhankelijk en beoordeelt of het verzoek om gegevens passend is."
             }
           ],
-          "image": "assets/images/social-media-001-vraag-3.jpg",
-          "imageAlt": "Winactie die persoonsgegevens vraagt"
+          "image": "assets/images/social-media-001-vraag-3-uniek.png",
+          "imageAlt": "Gesimuleerd instagram-beeld bij vraag 3: WIN CONCERTKAARTJES!. Vul je naam, adres en geboortedatum in."
         },
         {
           "id": "social-media-001-step-4",
@@ -617,8 +617,8 @@
               "feedback": "Andere gegevens op het scherm kunnen alsnog vertrouwelijk zijn. Maak liever een veilige nieuwe foto."
             }
           ],
-          "image": "assets/images/social-media-001-vraag-4.jpg",
-          "imageAlt": "Foto met vertrouwelijk scherm op de achtergrond"
+          "image": "assets/images/social-media-001-vraag-4-uniek.png",
+          "imageAlt": "Gesimuleerd instagram-beeld bij vraag 4: Selfie bij de winkelbalie. Op de achtergrond: klantdossier."
         },
         {
           "id": "social-media-001-step-5",
@@ -644,8 +644,8 @@
               "feedback": "De foto kan blijven circuleren. Vraag om verwijdering en zoek hulp als dat nodig is."
             }
           ],
-          "image": "assets/images/social-media-001-vraag-5.jpg",
-          "imageAlt": "Ongewenst gedeelde foto in groepschat"
+          "image": "assets/images/social-media-001-vraag-5-uniek.png",
+          "imageAlt": "Gesimuleerd groepschat-beeld bij vraag 5: Ongemakkelijke foto van klasgenoot. 12x doorgestuurd."
         }
       ],
       "reflection": {
@@ -687,8 +687,8 @@
               "feedback": "Beeldkenmerken kunnen aanwijzingen geven, maar bewijzen op zichzelf niet of een video echt of nep is."
             }
           ],
-          "image": "assets/images/deepfakes-001-vraag-1.jpg",
-          "imageAlt": "Video waarin docent lessen afzegt"
+          "image": "assets/images/deepfakes-001-vraag-1-uniek.png",
+          "imageAlt": "Gesimuleerd video-beeld bij vraag 1: Morgen vallen alle lessen uit!. Geen bericht in de schoolapp."
         },
         {
           "id": "deepfakes-001-step-2",
@@ -714,8 +714,8 @@
               "feedback": "Je vertrouwt niet alleen op het uiterlijk van de video en voorkomt een overhaaste betaling."
             }
           ],
-          "image": "assets/images/deepfakes-001-vraag-2.jpg",
-          "imageAlt": "Influencer beveelt een investering aan"
+          "image": "assets/images/deepfakes-001-vraag-2-uniek.png",
+          "imageAlt": "Gesimuleerd video-beeld bij vraag 2: Bekende influencer in beeld. € 50 inleggen = € 500 gegarandeerd."
         },
         {
           "id": "deepfakes-001-step-3",
@@ -741,8 +741,8 @@
               "feedback": "Ook het verzamelen of delen van extra beeldmateriaal kan de privacy van de klasgenoot schaden."
             }
           ],
-          "image": "assets/images/deepfakes-001-vraag-3.jpg",
-          "imageAlt": "Gemanipuleerde foto van een klasgenoot"
+          "image": "assets/images/deepfakes-001-vraag-3-uniek.png",
+          "imageAlt": "Gesimuleerd groepschat-beeld bij vraag 3: Gênante AI-afbeelding klasgenoot. “Stuur door!” staat in de chat."
         },
         {
           "id": "deepfakes-001-step-4",
@@ -768,8 +768,8 @@
               "feedback": "Een kort fragment kan misleidend zijn, maar bewijst niet dat AI is gebruikt. Controleer bron en context."
             }
           ],
-          "image": "assets/images/deepfakes-001-vraag-4.jpg",
-          "imageAlt": "Verdacht nieuwsfragment op sociale media"
+          "image": "assets/images/deepfakes-001-vraag-4-uniek.png",
+          "imageAlt": "Gesimuleerd nieuwsclip-beeld bij vraag 4: Opvallende uitspraak in video. Duizenden likes · geen bron."
         },
         {
           "id": "deepfakes-001-step-5",
@@ -795,8 +795,8 @@
               "feedback": "Je controleert de identiteit onafhankelijk en beschermt vertrouwelijke stage-informatie."
             }
           ],
-          "image": "assets/images/deepfakes-001-vraag-5.jpg",
-          "imageAlt": "Spraakbericht met nagebootste stem"
+          "image": "assets/images/deepfakes-001-vraag-5-uniek.png",
+          "imageAlt": "Gesimuleerd audio-beeld bij vraag 5: Spraakbericht van onbekend nummer. Stuur vertrouwelijk bestand privé door."
         }
       ],
       "reflection": {
