@@ -1,4 +1,4 @@
-const APP_VERSION = "v0.4.0";
+const APP_VERSION = "v0.5.0";
 
 const App = {
   data: null,
@@ -213,7 +213,7 @@ const App = {
         </div>
 
         <p class="notice">
-          Prototype v0.4.0: AVG-proof werken, AI prompting en phishing.
+          Prototype v0.5.0: AVG-proof werken, AI prompting en phishing.
         </p>
 
       </main>
