@@ -19,6 +19,12 @@
       "name": "AI prompting",
       "description": "Leren om doelgericht, specifiek en met voldoende context met AI te werken.",
       "active": true
+    },
+    {
+      "id": "phishing",
+      "name": "Phishing & online fraude",
+      "description": "Veilig handelen bij verdachte berichten op school, tijdens stage en thuis.",
+      "active": true
     }
   ],
   "learningGoals": [
@@ -31,6 +37,11 @@
       "id": "ai-prompting",
       "name": "Doelgericht prompten",
       "description": "De student kan een eenvoudige AI-prompt gericht verbeteren door doel, doelgroep, context en gewenste output te verduidelijken."
+    },
+    {
+      "id": "phishing-veilig-handelen",
+      "name": "Veilig handelen bij phishing",
+      "description": "De student kan verdachte digitale verzoeken beoordelen, onafhankelijk controleren en na een fout passende maatregelen nemen."
     }
   ],
   "lessons": [
@@ -58,6 +69,19 @@
       ],
       "scenarioIds": [
         "ai-prompting-001"
+      ]
+    },
+    {
+      "id": "les-03-phishing",
+      "title": "Phishing – Denk na voor je klikt!",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeIds": [
+        "phishing"
+      ],
+      "scenarioIds": [
+        "phishing-001"
       ]
     }
   ],
@@ -264,6 +288,145 @@
       ],
       "reflection": {
         "question": "Waarom is het handig om eerst na te denken voordat je een prompt schrijft?"
+      }
+    },
+    {
+      "id": "phishing-001",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeId": "phishing",
+      "learningGoalId": "phishing-veilig-handelen",
+      "title": "Denk na voor je klikt!",
+      "steps": [
+        {
+          "id": "phishing-001-step-1",
+          "situation": "Je schoolaccount wordt geblokkeerd. Je ontvangt een e-mail die van de ICT-afdeling van school lijkt te komen: 'Bevestig vandaag vóór 18.00 uur je account via deze link, anders wordt je account geblokkeerd.'",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik klik op de link en log in om blokkering te voorkomen.",
+              "correct": false,
+              "feedback": "Een dringende waarschuwing maakt de link niet betrouwbaar. Je kunt je inloggegevens aan oplichters geven."
+            },
+            {
+              "id": "b",
+              "text": "Ik vraag een klasgenoot of die dezelfde e-mail heeft gekregen.",
+              "correct": false,
+              "feedback": "Ook als meerdere studenten het bericht ontvangen, kan het phishing zijn. Controleer via een onafhankelijk kanaal."
+            },
+            {
+              "id": "c",
+              "text": "Ik open zelf de officiële schoolomgeving of neem contact op met de ICT-helpdesk.",
+              "correct": true,
+              "feedback": "Je controleert het verzoek zonder de verdachte link te gebruiken."
+            }
+          ]
+        },
+        {
+          "id": "phishing-001-step-2",
+          "situation": "Je stagevergoeding staat klaar. Tijdens je stage krijg je een e-mail: 'Je stagevergoeding kan niet worden uitbetaald. Controleer vandaag je IBAN en upload een kopie van je identiteitsbewijs via deze link.' Je hebt dit verzoek niet eerder ontvangen.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik vul de gegevens meteen in om mijn vergoeding te ontvangen.",
+              "correct": false,
+              "feedback": "Via een onbekende link gevoelige gegevens uploaden kan leiden tot misbruik."
+            },
+            {
+              "id": "b",
+              "text": "Ik vraag mijn stagebegeleider of de administratie via een vertrouwd kanaal om bevestiging.",
+              "correct": true,
+              "feedback": "Je controleert het verzoek onafhankelijk voordat je persoonsgegevens deelt."
+            },
+            {
+              "id": "c",
+              "text": "Ik antwoord op de e-mail met mijn IBAN en vraag of een identiteitsbewijs nodig is.",
+              "correct": false,
+              "feedback": "Antwoorden op een mogelijk vervalst bericht is geen onafhankelijke controle en deelt mogelijk gegevens met oplichters."
+            }
+          ]
+        },
+        {
+          "id": "phishing-001-step-3",
+          "situation": "Je pakket wordt bezorgd. Je verwacht een pakket en ontvangt een sms: 'Bezorging mislukt. Betaal € 1,95 om een nieuw bezorgmoment te kiezen.' Er staat een link bij.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik betaal het kleine bedrag zodat het pakket komt.",
+              "correct": false,
+              "feedback": "Ook een klein betaalverzoek kan bedoeld zijn om betaalgegevens te verzamelen."
+            },
+            {
+              "id": "b",
+              "text": "Ik controleer de bezorgstatus via de officiële app of website die ik zelf open.",
+              "correct": true,
+              "feedback": "Je controleert de levering zonder de link uit de sms te gebruiken."
+            },
+            {
+              "id": "c",
+              "text": "Ik open de link om te kijken of de betaalpagina er betrouwbaar uitziet.",
+              "correct": false,
+              "feedback": "Een professioneel ogende betaalpagina bewijst niet dat de link betrouwbaar is."
+            }
+          ]
+        },
+        {
+          "id": "phishing-001-step-4",
+          "situation": "Een vriend heeft dringend geld nodig. Je krijgt een WhatsApp-bericht van een onbekend nummer: 'Mijn telefoon is kapot. Dit is mijn nieuwe nummer. Kun je € 75 voorschieten? Morgen betaal ik terug.' De afzender gebruikt de naam van je vriend.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik maak het geld over omdat mijn vriend het vraagt.",
+              "correct": false,
+              "feedback": "Een naam in een bericht bewijst niet wie de afzender is."
+            },
+            {
+              "id": "b",
+              "text": "Ik stel een persoonlijke vraag die mijn vriend zou moeten weten.",
+              "correct": false,
+              "feedback": "Dat kan helpen, maar persoonlijke informatie kan ook bij oplichters bekend zijn."
+            },
+            {
+              "id": "c",
+              "text": "Ik bel mijn vriend op het oude nummer of gebruik een ander vertrouwd contactkanaal.",
+              "correct": true,
+              "feedback": "Je verifieert de identiteit onafhankelijk voordat je geld overmaakt."
+            }
+          ]
+        },
+        {
+          "id": "phishing-001-step-5",
+          "situation": "Je hebt toch op de link geklikt. Je hebt op een link uit een verdacht schoolbericht geklikt en je gebruikersnaam en wachtwoord ingevuld. Even later ontdek je dat het waarschijnlijk phishing was.",
+          "question": "Wat doe jij nu?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik wijzig meteen mijn wachtwoord via de officiële schoolomgeving en meld dit bij de ICT-helpdesk.",
+              "correct": true,
+              "feedback": "Snel je wachtwoord veranderen en het incident melden helpt schade beperken. Wijzig het ook elders als je het daar hergebruikt."
+            },
+            {
+              "id": "b",
+              "text": "Ik verwijder de e-mail en doe verder niets.",
+              "correct": false,
+              "feedback": "Het verwijderen van het bericht maakt de al gedeelde inloggegevens niet ongedaan."
+            },
+            {
+              "id": "c",
+              "text": "Ik wacht af of iemand mijn account gebruikt.",
+              "correct": false,
+              "feedback": "Misbruik kan al plaatsvinden voordat je het opmerkt. Onderneem direct actie."
+            }
+          ]
+        }
+      ],
+      "reflection": {
+        "question": "Welke situatie vond je het lastigst, waarom twijfelde je en wat zou je in het echt doen?"
       }
     }
   ]
