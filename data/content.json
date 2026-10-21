@@ -25,6 +25,12 @@
       "name": "Phishing & online fraude",
       "description": "Veilig handelen bij verdachte berichten op school, tijdens stage en thuis.",
       "active": true
+    },
+    {
+      "id": "social-media-privacy",
+      "name": "Social media & privacy",
+      "description": "Bewuste keuzes over delen, zichtbaarheid, beïnvloeding en persoonsgegevens op sociale media.",
+      "active": true
     }
   ],
   "learningGoals": [
@@ -42,6 +48,11 @@
       "id": "phishing-veilig-handelen",
       "name": "Veilig handelen bij phishing",
       "description": "De student kan verdachte digitale verzoeken beoordelen, onafhankelijk controleren en na een fout passende maatregelen nemen."
+    },
+    {
+      "id": "social-media-privacy-bewust",
+      "name": "Bewust omgaan met social media en privacy",
+      "description": "De student kan afwegen welke informatie verantwoord gedeeld wordt, privacy-instellingen controleren en passende acties ondernemen bij ongewenste verspreiding."
     }
   ],
   "lessons": [
@@ -82,6 +93,19 @@
       ],
       "scenarioIds": [
         "phishing-001"
+      ]
+    },
+    {
+      "id": "les-04-social-media",
+      "title": "Social media & privacy – Denk na voor je deelt!",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeIds": [
+        "social-media-privacy"
+      ],
+      "scenarioIds": [
+        "social-media-001"
       ]
     }
   ],
@@ -427,6 +451,145 @@
       ],
       "reflection": {
         "question": "Welke situatie vond je het lastigst, waarom twijfelde je en wat zou je in het echt doen?"
+      }
+    },
+    {
+      "id": "social-media-001",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeId": "social-media-privacy",
+      "learningGoalId": "social-media-privacy-bewust",
+      "title": "Denk na voor je deelt!",
+      "steps": [
+        {
+          "id": "social-media-001-step-1",
+          "situation": "Een foto van een klasgenoot. Na een gezellige schoolactiviteit wil je een groepsfoto in je Instagram Story plaatsen. Eén klasgenoot staat duidelijk herkenbaar op de foto en heeft nog niet gezegd of die online mag.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik plaats de foto, maar verwijder hem als iemand bezwaar maakt.",
+              "correct": false,
+              "feedback": "Ook tijdelijk plaatsen kan ongewenste verspreiding veroorzaken. Vraag vooraf toestemming."
+            },
+            {
+              "id": "b",
+              "text": "Ik vraag de herkenbare klasgenoten eerst of ze akkoord zijn en plaats de foto alleen als dat zo is.",
+              "correct": true,
+              "feedback": "Je houdt rekening met de privacy van anderen voordat de foto online staat."
+            },
+            {
+              "id": "c",
+              "text": "Ik plaats de foto alleen voor mijn volgers, want dan is toestemming niet nodig.",
+              "correct": false,
+              "feedback": "Ook volgers kunnen beelden opslaan of doorsturen. Een beperkte doelgroep vervangt toestemming niet."
+            }
+          ]
+        },
+        {
+          "id": "social-media-001-step-2",
+          "situation": "Je profiel staat openbaar. Je zoekt een stageplek. Je merkt dat onbekenden via je openbare Instagram-profiel je woonplaats, school en dagelijkse locaties kunnen zien. Je wilt wel bereikbaar blijven voor vrienden.",
+          "question": "Wat is de verstandigste stap?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik controleer mijn privacy-instellingen en beperk wie mijn berichten, locatie en profielgegevens kan zien.",
+              "correct": true,
+              "feedback": "Je kiest bewust welke gegevens zichtbaar zijn en voor wie, zonder je account meteen te verwijderen."
+            },
+            {
+              "id": "b",
+              "text": "Ik verwijder alleen mijn profielfoto; de rest kan openbaar blijven.",
+              "correct": false,
+              "feedback": "Ook berichten, locaties en profieltekst kunnen samen veel persoonlijke informatie prijsgeven."
+            },
+            {
+              "id": "c",
+              "text": "Ik accepteer alleen nog nieuwe volgers die ik herken, maar laat mijn bestaande berichten openbaar.",
+              "correct": false,
+              "feedback": "Nieuwe volgers beperken verandert niet automatisch de zichtbaarheid van openbare berichten."
+            }
+          ]
+        },
+        {
+          "id": "social-media-001-step-3",
+          "situation": "Een aantrekkelijke winactie. Op Instagram zie je een winactie voor concertkaartjes. Je moet via een link je volledige naam, geboortedatum, adres en telefoonnummer invullen. De organisator is je onbekend.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik vul de gegevens in; anders maak ik geen kans op de kaartjes.",
+              "correct": false,
+              "feedback": "Voor een onbekende actie worden veel persoonsgegevens gevraagd. Deel die niet zonder de betrouwbaarheid en noodzaak te controleren."
+            },
+            {
+              "id": "b",
+              "text": "Ik vraag een vriend of die de actie ook heeft gezien en vul daarna de gegevens in.",
+              "correct": false,
+              "feedback": "Dat iemand dezelfde actie ziet, bewijst niet dat de organisator betrouwbaar is."
+            },
+            {
+              "id": "c",
+              "text": "Ik controleer eerst via het officiële account of de officiële website of de actie echt is en welke gegevens nodig zijn.",
+              "correct": true,
+              "feedback": "Je verifieert de afzender onafhankelijk en beoordeelt of het verzoek om gegevens passend is."
+            }
+          ]
+        },
+        {
+          "id": "social-media-001-step-4",
+          "situation": "Een bericht vanaf je stage. Je loopt stage in een winkel. Je hebt een leuke foto gemaakt waarop achter je een computerscherm met klantgegevens zichtbaar is. Je wilt de foto posten met de tekst: “Mijn eerste stagedag!”",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik plaats de foto in een privéverhaal, want dan zien alleen vrienden hem.",
+              "correct": false,
+              "feedback": "Ook een privéverhaal kan worden opgeslagen of doorgestuurd; klantgegevens horen niet zichtbaar te zijn."
+            },
+            {
+              "id": "b",
+              "text": "Ik maak een nieuwe foto zonder klantgegevens en vraag of ik die volgens de afspraken van het stagebedrijf mag delen.",
+              "correct": true,
+              "feedback": "Je voorkomt dat klantgegevens zichtbaar worden en houdt rekening met afspraken op je stage."
+            },
+            {
+              "id": "c",
+              "text": "Ik maak de klantnamen onleesbaar, maar laat de rest van het scherm zien.",
+              "correct": false,
+              "feedback": "Andere gegevens op het scherm kunnen alsnog vertrouwelijk zijn. Maak liever een veilige nieuwe foto."
+            }
+          ]
+        },
+        {
+          "id": "social-media-001-step-5",
+          "situation": "Een foto wordt zonder toestemming gedeeld. Een klasgenoot heeft een ongemakkelijke foto van jou in een groepschat geplaatst. Anderen sturen hem door. Je wilt dat de verspreiding stopt.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik plaats een gênante foto van die klasgenoot terug, zodat die begrijpt hoe het voelt.",
+              "correct": false,
+              "feedback": "Terugpakken kan het conflict en de verspreiding van privébeelden vergroten."
+            },
+            {
+              "id": "b",
+              "text": "Ik vraag om verwijdering, gebruik zo nodig de meldfunctie en schakel een docent of vertrouwenspersoon in als het doorgaat.",
+              "correct": true,
+              "feedback": "Je probeert de verspreiding te stoppen en zoekt hulp als je verzoek niet wordt gerespecteerd."
+            },
+            {
+              "id": "c",
+              "text": "Ik verlaat de groepschat en doe verder niets.",
+              "correct": false,
+              "feedback": "De foto kan blijven circuleren. Vraag om verwijdering en zoek hulp als dat nodig is."
+            }
+          ]
+        }
+      ],
+      "reflection": {
+        "question": "Welke situatie vond je het lastigst? Wat zou jij voortaan anders doen voordat je iets deelt op sociale media?"
       }
     }
   ]
