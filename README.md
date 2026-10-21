@@ -110,3 +110,9 @@ Drie eerder nog lege afbeeldingsplaatsen zijn ingevuld: phishing, social media &
 - Bij ontbrekende afbeeldingsverwijzing blijft de scenario-afbeelding als fallback bestaan.
 - De aanvullende beelden zijn bijgesneden uit een eerder voor CyberTrainer gegenereerde AI-beeldcollage. Sommige beelden gebruiken dezelfde bronscène; voor volledig unieke, vraag-specifieke fotografie is aanvullende beeldgeneratie nodig.
 - Controleer eventuele details in nagebootste berichten en interfaces vóór gebruik in de les.
+
+
+## v0.8.1 – unieke vraagbeelden
+- 21 onderscheiden, lokaal opgeslagen scenario-afbeeldingen per vraag; bestaande AVG-afbeelding behouden.
+- De afbeeldingen zijn grafisch nagebouwde interface-simulaties, geen echte screenshots of fotorealistische AI-foto’s.
+- Alle nieuwe afbeeldingen bevatten alternatieve beschrijvingen in de JSON.
