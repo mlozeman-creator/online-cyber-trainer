@@ -27,7 +27,7 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 
 ## P1-prototype
 
-Huidige inhoud in v0.5.0:
+Huidige inhoud in v0.6.0:
 
 - doelgroep: MBO Burgerschap
 - thema: AVG-proof werken
@@ -56,6 +56,15 @@ Hosting: Vercel
 Productiedomein: https://online-cyber-trainer.vercel.app
 
 ## Versiegeschiedenis
+
+### v0.6.0 – AI & deepfakes toegevoegd
+
+- Vijf praktijksituaties over gemanipuleerde video’s, misleidende investeringen, ongewenste beelden, nieuws en nagebootste stemmen.
+- Aansluiting op lesbrief 4: de bestaande Echt of AI?-afbeeldingenquiz blijft in het lesmateriaal; de webapp oefent handelen.
+- Directe feedback, opnieuw proberen en reflectie via bestaande engine.
+- Bestaande AVG-, AI-prompting-, phishing- en socialmediatrainingen behouden.
+- v1.0.0 pas na integrale inhoudelijke en functionele tests.
+
 
 ### v0.5.0 – Social media & privacy toegevoegd
 
