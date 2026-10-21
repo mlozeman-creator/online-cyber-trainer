@@ -27,7 +27,7 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 
 ## P1-prototype
 
-Huidige inhoud in v0.6.0:
+Huidige inhoud in v0.7.0:
 
 - doelgroep: MBO Burgerschap
 - thema: AVG-proof werken
@@ -95,3 +95,8 @@ Productiedomein: https://online-cyber-trainer.vercel.app
 - Willekeurige antwoordvolgorde.
 - Feedback, opnieuw proberen en reflectie.
 - Content via JSON.
+
+
+## v0.7.0 – scenarioafbeeldingen
+
+Drie eerder nog lege afbeeldingsplaatsen zijn ingevuld: phishing, social media & privacy, AI & deepfakes. De bestaande afbeeldingen voor AVG en AI prompting blijven ongewijzigd. Elke illustratie is AI-gegenereerd (fictief), geen authentiek bewijs of een echte screenshot. Per scenario maximaal één afbeelding, met alt-tekst via `imageAlt`. De bestaande beeldpositie wordt behouden. De beelden bij scenario’s met meerdere stappen zijn sfeerbeelden bij het thema, niet noodzakelijk illustraties van iedere afzonderlijke stap.
