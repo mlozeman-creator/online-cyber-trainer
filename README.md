@@ -27,13 +27,15 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 
 ## P1-prototype
 
-Huidige inhoud in v0.3.0:
+Huidige inhoud in v0.5.0:
 
 - doelgroep: MBO Burgerschap
 - thema: AVG-proof werken
 - scenario: Een ticket op je scherm
 - thema: AI prompting
 - scenario: Doelgericht prompten in zes leerstappen
+- thema: Phishing & online fraude
+- scenario: Denk na voor je klikt! (vijf leerstappen)
 
 CyberTrainer v0.2.0 vormde het eerste stabiele technische ijkpunt. In v0.3.0 is AI prompting als tweede inhoudelijke toepassing opgenomen.
 
@@ -54,6 +56,22 @@ Hosting: Vercel
 Productiedomein: https://online-cyber-trainer.vercel.app
 
 ## Versiegeschiedenis
+
+### v0.5.0 – Social media & privacy toegevoegd
+
+- Vijf praktijksituaties over toestemming, profielzichtbaarheid, winacties, stagegegevens en ongewenst delen.
+- Directe feedback, opnieuw proberen en reflectie via de bestaande engine.
+- Eerdere thema’s en scenario’s behouden.
+- v1.0.0 volgt pas na afronding en testen van alle vier lesthema’s.
+
+
+### v0.4.0 – Phishing toegevoegd
+
+- Vijf phishingsituaties in één doorlopende training.
+- Directe feedback en opnieuw proberen via bestaande engine.
+- AVG en AI prompting ongewijzigd.
+- v1.0.0 volgt na afronding en testen van alle vier lesonderwerpen.
+
 
 ### v0.3.0 – AI prompting actief
 
