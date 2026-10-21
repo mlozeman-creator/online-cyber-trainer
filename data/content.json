@@ -166,7 +166,9 @@
               "correct": false,
               "feedback": "Denk na over wat er met de persoonsgegevens gebeurt wanneer je een foto van het ticket maakt en op je telefoon bewaart."
             }
-          ]
+          ],
+          "image": "assets/images/avg-helpdesk.png",
+          "imageAlt": "Een supportticket met persoonsgegevens op een onbeheerd scherm"
         }
       ],
       "reflection": {
@@ -206,7 +208,9 @@
               "correct": false,
               "feedback": "Denk nog eens na. Een lange prompt is niet automatisch een duidelijke prompt."
             }
-          ]
+          ],
+          "image": "assets/images/ai-prompting.png",
+          "imageAlt": "Korte AI-prompt voor MFA-uitleg"
         },
         {
           "id": "ai-prompting-001-step-2",
@@ -231,7 +235,9 @@
               "correct": false,
               "feedback": "Denk nog eens na. Dit zegt nog niet vanuit welke rol AI de opdracht moet uitvoeren."
             }
-          ]
+          ],
+          "image": "assets/images/ai-prompting-001-vraag-2.jpg",
+          "imageAlt": "De rol ICT-supportmedewerker toevoegen"
         },
         {
           "id": "ai-prompting-001-step-3",
@@ -256,7 +262,9 @@
               "correct": false,
               "feedback": "Denk nog eens na. Je wilt juist concrete voorwaarden geven voor het gewenste resultaat."
             }
-          ]
+          ],
+          "image": "assets/images/ai-prompting-001-vraag-3.jpg",
+          "imageAlt": "Een duidelijke uitleg in vijf stappen"
         },
         {
           "id": "ai-prompting-001-step-4",
@@ -281,7 +289,9 @@
               "correct": false,
               "feedback": "Denk nog eens na. Je kunt de bestaande prompt gebruiken als basis en gericht verbeteren."
             }
-          ]
+          ],
+          "image": "assets/images/ai-prompting-001-vraag-4.jpg",
+          "imageAlt": "Een AI-antwoord beoordelen en verbeteren"
         },
         {
           "id": "ai-prompting-001-step-5",
@@ -306,7 +316,9 @@
               "correct": false,
               "feedback": "Denk nog eens na. Extra tekst is niet automatisch extra duidelijkheid."
             }
-          ]
+          ],
+          "image": "assets/images/ai-prompting-001-vraag-5.jpg",
+          "imageAlt": "Voorbeeldoutput voor een AI-prompt"
         },
         {
           "id": "ai-prompting-001-step-6",
@@ -331,7 +343,9 @@
               "correct": false,
               "feedback": "Denk nog eens na. Het doel is niet om zoveel mogelijk informatie toe te voegen, maar om gericht de juiste informatie toe te voegen."
             }
-          ]
+          ],
+          "image": "assets/images/ai-prompting-001-vraag-6.jpg",
+          "imageAlt": "Drie versies van dezelfde prompt vergelijken"
         }
       ],
       "reflection": {
@@ -370,7 +384,9 @@
               "correct": true,
               "feedback": "Je controleert het verzoek zonder de verdachte link te gebruiken."
             }
-          ]
+          ],
+          "image": "assets/images/phishing-001-vraag-1.jpg",
+          "imageAlt": "Dringende schoolmail met link"
         },
         {
           "id": "phishing-001-step-2",
@@ -395,7 +411,9 @@
               "correct": false,
               "feedback": "Antwoorden op een mogelijk vervalst bericht is geen onafhankelijke controle en deelt mogelijk gegevens met oplichters."
             }
-          ]
+          ],
+          "image": "assets/images/phishing-001-vraag-2.jpg",
+          "imageAlt": "Verdacht verzoek over stagevergoeding"
         },
         {
           "id": "phishing-001-step-3",
@@ -420,7 +438,9 @@
               "correct": false,
               "feedback": "Een professioneel ogende betaalpagina bewijst niet dat de link betrouwbaar is."
             }
-          ]
+          ],
+          "image": "assets/images/phishing-001-vraag-3.jpg",
+          "imageAlt": "Sms met betaalverzoek voor pakket"
         },
         {
           "id": "phishing-001-step-4",
@@ -445,7 +465,9 @@
               "correct": true,
               "feedback": "Je verifieert de identiteit onafhankelijk voordat je geld overmaakt."
             }
-          ]
+          ],
+          "image": "assets/images/phishing-001-vraag-4.jpg",
+          "imageAlt": "WhatsApp-bericht van onbekend nummer"
         },
         {
           "id": "phishing-001-step-5",
@@ -470,7 +492,9 @@
               "correct": false,
               "feedback": "Misbruik kan al plaatsvinden voordat je het opmerkt. Onderneem direct actie."
             }
-          ]
+          ],
+          "image": "assets/images/phishing-001-vraag-5.jpg",
+          "imageAlt": "Inloggegevens ingevoerd op een verdachte website"
         }
       ],
       "reflection": {
@@ -511,7 +535,9 @@
               "correct": false,
               "feedback": "Ook volgers kunnen beelden opslaan of doorsturen. Een beperkte doelgroep vervangt toestemming niet."
             }
-          ]
+          ],
+          "image": "assets/images/social-media-001-vraag-1.jpg",
+          "imageAlt": "Groepsfoto delen zonder toestemming"
         },
         {
           "id": "social-media-001-step-2",
@@ -536,7 +562,9 @@
               "correct": false,
               "feedback": "Nieuwe volgers beperken verandert niet automatisch de zichtbaarheid van openbare berichten."
             }
-          ]
+          ],
+          "image": "assets/images/social-media-001-vraag-2.jpg",
+          "imageAlt": "Openbare Instagram-profielinformatie"
         },
         {
           "id": "social-media-001-step-3",
@@ -561,7 +589,9 @@
               "correct": true,
               "feedback": "Je verifieert de afzender onafhankelijk en beoordeelt of het verzoek om gegevens passend is."
             }
-          ]
+          ],
+          "image": "assets/images/social-media-001-vraag-3.jpg",
+          "imageAlt": "Winactie die persoonsgegevens vraagt"
         },
         {
           "id": "social-media-001-step-4",
@@ -586,7 +616,9 @@
               "correct": false,
               "feedback": "Andere gegevens op het scherm kunnen alsnog vertrouwelijk zijn. Maak liever een veilige nieuwe foto."
             }
-          ]
+          ],
+          "image": "assets/images/social-media-001-vraag-4.jpg",
+          "imageAlt": "Foto met vertrouwelijk scherm op de achtergrond"
         },
         {
           "id": "social-media-001-step-5",
@@ -611,7 +643,9 @@
               "correct": false,
               "feedback": "De foto kan blijven circuleren. Vraag om verwijdering en zoek hulp als dat nodig is."
             }
-          ]
+          ],
+          "image": "assets/images/social-media-001-vraag-5.jpg",
+          "imageAlt": "Ongewenst gedeelde foto in groepschat"
         }
       ],
       "reflection": {
@@ -652,7 +686,9 @@
               "correct": false,
               "feedback": "Beeldkenmerken kunnen aanwijzingen geven, maar bewijzen op zichzelf niet of een video echt of nep is."
             }
-          ]
+          ],
+          "image": "assets/images/deepfakes-001-vraag-1.jpg",
+          "imageAlt": "Video waarin docent lessen afzegt"
         },
         {
           "id": "deepfakes-001-step-2",
@@ -677,7 +713,9 @@
               "correct": true,
               "feedback": "Je vertrouwt niet alleen op het uiterlijk van de video en voorkomt een overhaaste betaling."
             }
-          ]
+          ],
+          "image": "assets/images/deepfakes-001-vraag-2.jpg",
+          "imageAlt": "Influencer beveelt een investering aan"
         },
         {
           "id": "deepfakes-001-step-3",
@@ -702,7 +740,9 @@
               "correct": false,
               "feedback": "Ook het verzamelen of delen van extra beeldmateriaal kan de privacy van de klasgenoot schaden."
             }
-          ]
+          ],
+          "image": "assets/images/deepfakes-001-vraag-3.jpg",
+          "imageAlt": "Gemanipuleerde foto van een klasgenoot"
         },
         {
           "id": "deepfakes-001-step-4",
@@ -727,7 +767,9 @@
               "correct": false,
               "feedback": "Een kort fragment kan misleidend zijn, maar bewijst niet dat AI is gebruikt. Controleer bron en context."
             }
-          ]
+          ],
+          "image": "assets/images/deepfakes-001-vraag-4.jpg",
+          "imageAlt": "Verdacht nieuwsfragment op sociale media"
         },
         {
           "id": "deepfakes-001-step-5",
@@ -752,7 +794,9 @@
               "correct": true,
               "feedback": "Je controleert de identiteit onafhankelijk en beschermt vertrouwelijke stage-informatie."
             }
-          ]
+          ],
+          "image": "assets/images/deepfakes-001-vraag-5.jpg",
+          "imageAlt": "Spraakbericht met nagebootste stem"
         }
       ],
       "reflection": {
