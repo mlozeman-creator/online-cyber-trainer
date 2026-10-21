@@ -31,6 +31,12 @@
       "name": "Social media & privacy",
       "description": "Bewuste keuzes over delen, zichtbaarheid, beïnvloeding en persoonsgegevens op sociale media.",
       "active": true
+    },
+    {
+      "id": "ai-deepfakes",
+      "name": "AI & deepfakes",
+      "description": "Bewust handelen bij mogelijk gemanipuleerde beelden, audio en berichten.",
+      "active": true
     }
   ],
   "learningGoals": [
@@ -53,6 +59,11 @@
       "id": "social-media-privacy-bewust",
       "name": "Bewust omgaan met social media en privacy",
       "description": "De student kan afwegen welke informatie verantwoord gedeeld wordt, privacy-instellingen controleren en passende acties ondernemen bij ongewenste verspreiding."
+    },
+    {
+      "id": "deepfakes-verantwoord-handelen",
+      "name": "Verantwoord handelen bij mogelijk gemanipuleerde media",
+      "description": "De student kan de betrouwbaarheid van digitale media kritisch beoordelen, zelfstandig verifiëren en verantwoord reageren op misleidende inhoud."
     }
   ],
   "lessons": [
@@ -106,6 +117,19 @@
       ],
       "scenarioIds": [
         "social-media-001"
+      ]
+    },
+    {
+      "id": "les-05-deepfakes",
+      "title": "AI & deepfakes – Kijk verder dan het beeld",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeIds": [
+        "ai-deepfakes"
+      ],
+      "scenarioIds": [
+        "deepfakes-001"
       ]
     }
   ],
@@ -590,6 +614,145 @@
       ],
       "reflection": {
         "question": "Welke situatie vond je het lastigst? Wat zou jij voortaan anders doen voordat je iets deelt op sociale media?"
+      }
+    },
+    {
+      "id": "deepfakes-001",
+      "audienceIds": [
+        "mbo-burgerschap"
+      ],
+      "themeId": "ai-deepfakes",
+      "learningGoalId": "deepfakes-verantwoord-handelen",
+      "title": "Kun jij het vertrouwen?",
+      "steps": [
+        {
+          "id": "deepfakes-001-step-1",
+          "situation": "Een video van je docent. In een groepschat verschijnt een korte video waarin een docent zegt dat morgen alle lessen uitvallen. Er is geen bericht via de officiële schoolkanalen.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik stuur de video door; iedereen moet dit op tijd weten.",
+              "correct": false,
+              "feedback": "Doorsturen kan misinformatie verspreiden. Controleer eerst of de mededeling echt is."
+            },
+            {
+              "id": "b",
+              "text": "Ik controleer het rooster of vraag het na via een officieel schoolkanaal.",
+              "correct": true,
+              "feedback": "Een video kan gemanipuleerd zijn. Je controleert de mededeling via een onafhankelijke bron."
+            },
+            {
+              "id": "c",
+              "text": "Ik geloof het niet omdat de mondbewegingen vreemd lijken.",
+              "correct": false,
+              "feedback": "Beeldkenmerken kunnen aanwijzingen geven, maar bewijzen op zichzelf niet of een video echt of nep is."
+            }
+          ]
+        },
+        {
+          "id": "deepfakes-001-step-2",
+          "situation": "Een bekend gezicht vraagt om geld. Je ziet een video van een bekende influencer die een investering aanprijst: “Maak vandaag € 50 over en ontvang gegarandeerd € 500 terug.” De video ziet er professioneel uit.",
+          "question": "Hoe reageer je?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik betaal omdat de influencer zelf in beeld is.",
+              "correct": false,
+              "feedback": "Beeld en stem kunnen worden nagebootst. Gegarandeerde opbrengsten zijn bovendien een alarmsignaal."
+            },
+            {
+              "id": "b",
+              "text": "Ik deel de video met vrienden zodat zij kunnen beoordelen of het klopt.",
+              "correct": false,
+              "feedback": "Ook met goede bedoelingen kun je een mogelijk frauduleus bericht verder verspreiden."
+            },
+            {
+              "id": "c",
+              "text": "Ik maak niets over en controleer de claim via onafhankelijke, betrouwbare kanalen.",
+              "correct": true,
+              "feedback": "Je vertrouwt niet alleen op het uiterlijk van de video en voorkomt een overhaaste betaling."
+            }
+          ]
+        },
+        {
+          "id": "deepfakes-001-step-3",
+          "situation": "Een gênante foto van een klasgenoot. In een groepschat gaat een gênante foto van een klasgenoot rond. Iemand zegt dat de afbeelding met AI is gemaakt. Anderen willen dat je hem doorstuurt.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik stuur hem door met de tekst “waarschijnlijk AI”, zodat iedereen gewaarschuwd is.",
+              "correct": false,
+              "feedback": "Ook een waarschuwing kan de afbeelding verder verspreiden en de klasgenoot schaden."
+            },
+            {
+              "id": "b",
+              "text": "Ik verspreid de foto niet, steun de klasgenoot en meld het zo nodig bij school of het platform.",
+              "correct": true,
+              "feedback": "Je beperkt verdere schade en helpt de betrokken persoon, ongeacht of de afbeelding echt of gemanipuleerd is."
+            },
+            {
+              "id": "c",
+              "text": "Ik vraag eerst om de originele foto en stuur die daarna naar de groep.",
+              "correct": false,
+              "feedback": "Ook het verzamelen of delen van extra beeldmateriaal kan de privacy van de klasgenoot schaden."
+            }
+          ]
+        },
+        {
+          "id": "deepfakes-001-step-4",
+          "situation": "Een schokkend nieuwsfragment. Op sociale media zie je een video waarin een burgemeester een opvallende uitspraak lijkt te doen. De video heeft duizenden likes, maar er wordt geen betrouwbare bron genoemd.",
+          "question": "Wat is de verstandigste keuze?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik zoek of betrouwbare nieuwsbronnen of de officiële kanalen de uitspraak bevestigen.",
+              "correct": true,
+              "feedback": "Likes en realistische beelden zijn geen bewijs. Onafhankelijke broncontrole helpt de context vast te stellen."
+            },
+            {
+              "id": "b",
+              "text": "Ik neem het bericht over, want duizenden mensen hebben het al gezien.",
+              "correct": false,
+              "feedback": "Veel bereik zegt niets over de betrouwbaarheid van een video."
+            },
+            {
+              "id": "c",
+              "text": "Ik besluit dat het AI is omdat de video opvallend kort is.",
+              "correct": false,
+              "feedback": "Een kort fragment kan misleidend zijn, maar bewijst niet dat AI is gebruikt. Controleer bron en context."
+            }
+          ]
+        },
+        {
+          "id": "deepfakes-001-step-5",
+          "situation": "Een spraakbericht van je stagebegeleider. Je krijgt via een onbekend nummer een spraakbericht met de stem van je stagebegeleider. Je wordt gevraagd een vertrouwelijk document meteen naar een privé-e-mailadres te sturen.",
+          "question": "Wat doe jij?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Ik stuur het document; de stem klinkt precies als die van mijn begeleider.",
+              "correct": false,
+              "feedback": "Stemmen kunnen met AI worden nagebootst. Vertrouwelijke documenten horen niet zomaar naar privé-adressen."
+            },
+            {
+              "id": "b",
+              "text": "Ik vraag via het onbekende nummer of het verzoek echt is.",
+              "correct": false,
+              "feedback": "Een reactie via hetzelfde onbekende kanaal bevestigt de identiteit van de afzender niet."
+            },
+            {
+              "id": "c",
+              "text": "Ik neem via het bekende werknummer of een ander vertrouwd kanaal contact op en deel voorlopig niets.",
+              "correct": true,
+              "feedback": "Je controleert de identiteit onafhankelijk en beschermt vertrouwelijke stage-informatie."
+            }
+          ]
+        }
+      ],
+      "reflection": {
+        "question": "Bij welke situatie zou jij het meest twijfelen? Hoe controleer je voortaan of een video, foto of spraakbericht betrouwbaar is?"
       }
     }
   ]
