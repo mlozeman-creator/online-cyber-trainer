@@ -27,7 +27,7 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 
 ## P1-prototype
 
-Huidige inhoud in v0.7.0:
+Huidige inhoud in v0.8.0:
 
 - doelgroep: MBO Burgerschap
 - thema: AVG-proof werken
@@ -97,6 +97,16 @@ Productiedomein: https://online-cyber-trainer.vercel.app
 - Content via JSON.
 
 
-## v0.7.0 – scenarioafbeeldingen
+## v0.8.0 – scenarioafbeeldingen
 
 Drie eerder nog lege afbeeldingsplaatsen zijn ingevuld: phishing, social media & privacy, AI & deepfakes. De bestaande afbeeldingen voor AVG en AI prompting blijven ongewijzigd. Elke illustratie is AI-gegenereerd (fictief), geen authentiek bewijs of een echte screenshot. Per scenario maximaal één afbeelding, met alt-tekst via `imageAlt`. De bestaande beeldpositie wordt behouden. De beelden bij scenario’s met meerdere stappen zijn sfeerbeelden bij het thema, niet noodzakelijk illustraties van iedere afzonderlijke stap.
+
+
+## v0.8.0 — afbeelding per vraag
+
+- Elk van de 22 vragen heeft een eigen afbeeldingverwijzing en alt-tekst in `data/content.json` (`scenarios[].steps[].image`).
+- Afbeeldingen wisselen mee met de huidige vraag via `scenarioImage(scenario, step)`.
+- Bestaande afbeeldingen voor AVG en de eerste AI-promptingvraag blijven behouden.
+- Bij ontbrekende afbeeldingsverwijzing blijft de scenario-afbeelding als fallback bestaan.
+- De aanvullende beelden zijn bijgesneden uit een eerder voor CyberTrainer gegenereerde AI-beeldcollage. Sommige beelden gebruiken dezelfde bronscène; voor volledig unieke, vraag-specifieke fotografie is aanvullende beeldgeneratie nodig.
+- Controleer eventuele details in nagebootste berichten en interfaces vóór gebruik in de les.
