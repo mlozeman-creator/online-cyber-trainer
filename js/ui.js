@@ -78,7 +78,7 @@ function scenarioImage(scenario) {
       <img
         class="scenario-image"
         src="${escapeHtml(scenario.image)}"
-        alt="${escapeHtml(scenario.title || "Praktijksituatie")}"
+        alt="${escapeHtml(scenario.imageAlt || scenario.title || "Praktijksituatie")}"
       >
     `;
   }
