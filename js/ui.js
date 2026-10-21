@@ -72,13 +72,15 @@ eenvoudig een afbeelding toevoegen via
 content.json.
 */
 
-function scenarioImage(scenario) {
-  if (scenario && scenario.image) {
+function scenarioImage(scenario, step) {
+  const image = step?.image || scenario?.image;
+  const imageAlt = step?.imageAlt || scenario?.imageAlt || scenario?.title || "Praktijksituatie";
+  if (image) {
     return `
       <img
         class="scenario-image"
-        src="${escapeHtml(scenario.image)}"
-        alt="${escapeHtml(scenario.imageAlt || scenario.title || "Praktijksituatie")}"
+        src="${escapeHtml(image)}"
+        alt="${escapeHtml(imageAlt)}"
       >
     `;
   }
