@@ -1,4 +1,4 @@
-const APP_VERSION = "v0.7.0";
+const APP_VERSION = "v0.8.0";
 
 const App = {
   data: null,
@@ -213,7 +213,7 @@ const App = {
         </div>
 
         <p class="notice">
-          Prototype v0.7.0: AVG-proof werken, AI prompting en phishing.
+          Prototype v0.8.0: AVG-proof werken, AI prompting, phishing, social media & privacy en AI & deepfakes.
         </p>
 
       </main>
@@ -331,7 +331,7 @@ const App = {
           ========================================
 
           De afbeelding wordt vanuit content.json
-          aan het scenario gekoppeld.
+          aan de afzonderlijke vraag gekoppeld.
 
           Heeft het scenario nog geen afbeelding,
           dan toont ui.js automatisch de
@@ -340,7 +340,7 @@ const App = {
 
           <div class="scenario-visual">
 
-            ${CyberTrainerUI.scenarioImage(scenario)}
+            ${CyberTrainerUI.scenarioImage(scenario, step)}
 
           </div>
 
