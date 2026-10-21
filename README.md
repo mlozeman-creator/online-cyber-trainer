@@ -27,18 +27,6 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 
 ## P1-prototype
 
-Huidige inhoud in v0.8.0:
-
-- doelgroep: MBO Burgerschap
-- thema: AVG-proof werken
-- scenario: Een ticket op je scherm
-- thema: AI prompting
-- scenario: Doelgericht prompten in zes leerstappen
-- thema: Phishing & online fraude
-- scenario: Denk na voor je klikt! (vijf leerstappen)
-
-CyberTrainer v0.2.0 vormde het eerste stabiele technische ijkpunt. In v0.3.0 is AI prompting als tweede inhoudelijke toepassing opgenomen.
-
 ## Ontwikkelafspraken
 
 - Geen doelgroep-specifieke logica in JavaScript.
@@ -57,6 +45,34 @@ Productiedomein: https://online-cyber-trainer.vercel.app
 
 ## Versiegeschiedenis
 
+## v0.8.1 – unieke vraagbeelden
+- 21 onderscheiden, lokaal opgeslagen scenario-afbeeldingen per vraag; bestaande AVG-afbeelding behouden.
+- De afbeeldingen zijn grafisch nagebouwde interface-simulaties, geen echte screenshots of fotorealistische AI-foto’s.
+- Alle nieuwe afbeeldingen bevatten alternatieve beschrijvingen in de JSON.
+
+## inhoud in v0.8.0:
+
+- doelgroep: MBO Burgerschap
+- thema: AVG-proof werken
+- scenario: Een ticket op je scherm
+- thema: AI prompting
+- scenario: Doelgericht prompten in zes leerstappen
+- thema: Phishing & online fraude
+- scenario: Denk na voor je klikt! (vijf leerstappen)
+
+## v0.8.0 – scenarioafbeeldingen
+
+Drie eerder nog lege afbeeldingsplaatsen zijn ingevuld: phishing, social media & privacy, AI & deepfakes. De bestaande afbeeldingen voor AVG en AI prompting blijven ongewijzigd. Elke illustratie is AI-gegenereerd (fictief), geen authentiek bewijs of een echte screenshot. Per scenario maximaal één afbeelding, met alt-tekst via `imageAlt`. De bestaande beeldpositie wordt behouden. De beelden bij scenario’s met meerdere stappen zijn sfeerbeelden bij het thema, niet noodzakelijk illustraties van iedere afzonderlijke stap.
+
+## v0.8.0 — afbeelding per vraag
+
+- Elk van de 22 vragen heeft een eigen afbeeldingverwijzing en alt-tekst in `data/content.json` (`scenarios[].steps[].image`).
+- Afbeeldingen wisselen mee met de huidige vraag via `scenarioImage(scenario, step)`.
+- Bestaande afbeeldingen voor AVG en de eerste AI-promptingvraag blijven behouden.
+- Bij ontbrekende afbeeldingsverwijzing blijft de scenario-afbeelding als fallback bestaan.
+- De aanvullende beelden zijn bijgesneden uit een eerder voor CyberTrainer gegenereerde AI-beeldcollage. Sommige beelden gebruiken dezelfde bronscène; voor volledig unieke, vraag-specifieke fotografie is aanvullende beeldgeneratie nodig.
+- Controleer eventuele details in nagebootste berichten en interfaces vóór gebruik in de les.
+
 ### v0.6.0 – AI & deepfakes toegevoegd
 
 - Vijf praktijksituaties over gemanipuleerde video’s, misleidende investeringen, ongewenste beelden, nieuws en nagebootste stemmen.
@@ -64,7 +80,6 @@ Productiedomein: https://online-cyber-trainer.vercel.app
 - Directe feedback, opnieuw proberen en reflectie via bestaande engine.
 - Bestaande AVG-, AI-prompting-, phishing- en socialmediatrainingen behouden.
 - v1.0.0 pas na integrale inhoudelijke en functionele tests.
-
 
 ### v0.5.0 – Social media & privacy toegevoegd
 
@@ -95,24 +110,3 @@ Productiedomein: https://online-cyber-trainer.vercel.app
 - Willekeurige antwoordvolgorde.
 - Feedback, opnieuw proberen en reflectie.
 - Content via JSON.
-
-
-## v0.8.0 – scenarioafbeeldingen
-
-Drie eerder nog lege afbeeldingsplaatsen zijn ingevuld: phishing, social media & privacy, AI & deepfakes. De bestaande afbeeldingen voor AVG en AI prompting blijven ongewijzigd. Elke illustratie is AI-gegenereerd (fictief), geen authentiek bewijs of een echte screenshot. Per scenario maximaal één afbeelding, met alt-tekst via `imageAlt`. De bestaande beeldpositie wordt behouden. De beelden bij scenario’s met meerdere stappen zijn sfeerbeelden bij het thema, niet noodzakelijk illustraties van iedere afzonderlijke stap.
-
-
-## v0.8.0 — afbeelding per vraag
-
-- Elk van de 22 vragen heeft een eigen afbeeldingverwijzing en alt-tekst in `data/content.json` (`scenarios[].steps[].image`).
-- Afbeeldingen wisselen mee met de huidige vraag via `scenarioImage(scenario, step)`.
-- Bestaande afbeeldingen voor AVG en de eerste AI-promptingvraag blijven behouden.
-- Bij ontbrekende afbeeldingsverwijzing blijft de scenario-afbeelding als fallback bestaan.
-- De aanvullende beelden zijn bijgesneden uit een eerder voor CyberTrainer gegenereerde AI-beeldcollage. Sommige beelden gebruiken dezelfde bronscène; voor volledig unieke, vraag-specifieke fotografie is aanvullende beeldgeneratie nodig.
-- Controleer eventuele details in nagebootste berichten en interfaces vóór gebruik in de les.
-
-
-## v0.8.1 – unieke vraagbeelden
-- 21 onderscheiden, lokaal opgeslagen scenario-afbeeldingen per vraag; bestaande AVG-afbeelding behouden.
-- De afbeeldingen zijn grafisch nagebouwde interface-simulaties, geen echte screenshots of fotorealistische AI-foto’s.
-- Alle nieuwe afbeeldingen bevatten alternatieve beschrijvingen in de JSON.
