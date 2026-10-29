@@ -471,7 +471,7 @@
         },
         {
           "id": "phishing-001-step-5",
-          "situation": "Je hebt op een link uit een verdacht schoolbericht geklikt en je gebruikersnaam en wachtwoord ingevuld. Even later ontdek je dat het waarschijnlijk phishing was.",
+          "situation": "Je hebt toch op de link geklikt. Je hebt op een link uit een verdacht schoolbericht geklikt en je gebruikersnaam en wachtwoord ingevuld. Even later ontdek je dat het waarschijnlijk phishing was.",
           "question": "Wat doe jij nu?",
           "choices": [
             {
@@ -513,7 +513,7 @@
       "title": "Denk na voor je deelt!",
       "steps": [
         {
-          "id": "social-media-001-step-3",
+          "id": "social-media-001-step-1",
           "situation": "Een foto van een klasgenoot. Na een gezellige schoolactiviteit wil je een groepsfoto in je Instagram Story plaatsen. Eén klasgenoot staat duidelijk herkenbaar op de foto en heeft nog niet gezegd of die online mag.",
           "question": "Wat doe jij?",
           "choices": [
@@ -536,7 +536,7 @@
               "feedback": "Ook volgers kunnen beelden opslaan of doorsturen. Een beperkte doelgroep vervangt toestemming niet."
             }
           ],
-          "image": "assets/images/sociale-media-privacy-01.png",
+          "image": "assets/images/SocialMediaPrivacy1.png",
           "imageAlt": "Beeld bij de praktijksituatie: Een foto van een klasgenoot"
         },
         {
@@ -563,7 +563,7 @@
               "feedback": "Nieuwe volgers beperken verandert niet automatisch de zichtbaarheid van openbare berichten."
             }
           ],
-          "image": "assets/images/sociale-media-privacy-02.png",
+          "image": "assets/images/SocialMediaPrivacy2.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je profiel staat openbaar"
         },
         {
@@ -590,7 +590,7 @@
               "feedback": "Je verifieert de afzender onafhankelijk en beoordeelt of het verzoek om gegevens passend is."
             }
           ],
-          "image": "assets/images/sociale-media-privacy-03.png",
+          "image": "assets/images/SocialMediaPrivacy3.png",
           "imageAlt": "Beeld bij de praktijksituatie: Een aantrekkelijke winactie"
         },
         {
@@ -617,11 +617,11 @@
               "feedback": "Andere gegevens op het scherm kunnen alsnog vertrouwelijk zijn. Maak liever een veilige nieuwe foto."
             }
           ],
-          "image": "assets/images/sociale-media-privacy-04.png",
+          "image": "assets/images/SocialMediaPrivacy4.png",
           "imageAlt": "Beeld bij de praktijksituatie: Een bericht vanaf je stage"
         },
         {
-          "id": "social-media-001-step-3",
+          "id": "social-media-001-step-5",
           "situation": "Een foto wordt zonder toestemming gedeeld. Een klasgenoot heeft een ongemakkelijke foto van jou in een groepschat geplaatst. Anderen sturen hem door. Je wilt dat de verspreiding stopt.",
           "question": "Wat doe jij?",
           "choices": [
@@ -644,14 +644,14 @@
               "feedback": "De foto kan blijven circuleren. Vraag om verwijdering en zoek hulp als dat nodig is."
             }
           ],
-          "image": "assets/images/sociale-media-privacy-05.png",
+          "image": "assets/images/SocialMediaPrivacy5.png",
           "imageAlt": "Beeld bij de praktijksituatie: Een foto wordt zonder toestemming gedeeld"
         }
       ],
       "reflection": {
         "question": "Welke situatie vond je het lastigst? Wat zou jij voortaan anders doen voordat je iets deelt op sociale media?"
       },
-      "image": "assets/images/sociale-media-privacy-01.png",
+      "image": "assets/images/SocialMediaPrivacy1.png",
       "imageAlt": "Fotorealistische illustratie van een student die een gedeeld beeld op zijn telefoon bekijkt."
     },
     {
