@@ -281,7 +281,7 @@
               "id": "b",
               "text": "Je bekijkt wat ontbreekt en past je prompt aan.",
               "correct": true,
-              "feedback": "Prompten is een iteratief proces: je bekijkt het resultaat, bepaalt wat beter kan en past je prompt aan."
+              "feedback": "Prompten is een iteratief proces: je bekijkt het resultaat, bepaalt wat beter kan en past je prompt aan. Controleer daarnaast of de informatie van AI inhoudelijk klopt, bijvoorbeeld door de instructies te vergelijken met de officiële Microsoft-documentatie."
             },
             {
               "id": "c",
