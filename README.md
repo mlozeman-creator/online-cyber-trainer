@@ -2,7 +2,9 @@
 
 **Echte situaties. Slimmere keuzes.**
 
-CyberTrainer is een eenvoudige, content-driven webapp voor digitale awareness.
+CyberTrainer is een content-driven webapp voor digitale awareness in het mbo-onderwijs.
+
+**Huidige vastgelegde release: v1.0.0 (29 oktober 2026).**
 
 ## Technische basis
 
@@ -19,13 +21,11 @@ De applicatie bepaalt **hoe** de training werkt.
 De content bepaalt **wat** de student krijgt.  
 De configuratie bepaalt **voor wie** en **in welke context** de content wordt gebruikt.
 
-De eerste prototypeversie gebruikt één gecombineerd contentbestand:
+De applicatie gebruikt één gecombineerd contentbestand:
 
-`content.json`
+`data/content.json`
 
 Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt de eerste versie eenvoudig te beheren. De structuur is al voorbereid op verdere uitbreiding.
-
-## P1-prototype
 
 ## Ontwikkelafspraken
 
@@ -42,6 +42,19 @@ Daarin staan doelgroepen, thema's, leerdoelen, lessen en scenario's. Dit houdt d
 Repository: GitHub  
 Hosting: Vercel  
 Productiedomein: https://online-cyber-trainer.vercel.app
+
+## Release v1.0.0 – goedgekeurde basisversie (29 oktober 2026)
+
+- Vijf thema’s en in totaal 22 interactieve vragen/leerstappen.
+- Thema’s: AVG-proof werken (1), AI prompting (6), Phishing & online fraude (5), Social media & privacy (5) en AI & deepfakes (5).
+- Alle 22 afbeeldingen en de bijbehorende koppelingen inhoudelijk gecontroleerd en goedgekeurd.
+- Scenarioteksten, antwoordmogelijkheden en feedback inhoudelijk beoordeeld; bij AI prompting, vraag 4, is feedback aangevuld met een advies om AI-informatie te verifiëren aan de hand van officiële Microsoft-documentatie.
+- De bestaande leerflow met directe feedback, opnieuw proberen en reflectie blijft behouden.
+- De GitHub-release `v1.0.0` is het herstelpunt vóór de geplande e-mailfunctie voor reflecties.
+
+**Afbakening:** automatische verzending of centrale opslag van reflecties is nog **niet** opgenomen in v1.0.0. Een eventuele uitbreiding met reflectiemails wordt apart ontwikkeld en getest (beoogd: v1.1.0). De volledige browser- en klassikale praktijktest is hiermee niet als afgerond aangemerkt.
+
+**Versienummer in interface:** bij de release is de versieaanduiding nog `v0.8.1`; de wijziging naar `v1.0.0` op het startscherm is als afzonderlijke vervolgcommit voorbereid. Controleer bij publicatie of deze wijziging is doorgevoerd.
 
 ## Versiegeschiedenis
 
