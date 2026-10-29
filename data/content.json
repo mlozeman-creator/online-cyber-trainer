@@ -183,7 +183,7 @@
       "themeId": "ai-prompting",
       "learningGoalId": "ai-prompting",
       "title": "Een betere prompt maken",
-      "image": "assets/images/ai-prompting-01.png",
+      "image": "assets/images/AI-prompting1.png",
       "steps": [
         {
           "id": "ai-prompting-001-step-1",
@@ -209,7 +209,7 @@
               "feedback": "Denk nog eens na. Een lange prompt is niet automatisch een duidelijke prompt."
             }
           ],
-          "image": "assets/images/ai-prompting-01.png",
+          "image": "assets/images/AI-prompting1.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je werkt op een ICT-helpdesk"
         },
         {
@@ -236,7 +236,7 @@
               "feedback": "Denk nog eens na. Dit zegt nog niet vanuit welke rol AI de opdracht moet uitvoeren."
             }
           ],
-          "image": "assets/images/ai-prompting-02.png",
+          "image": "assets/images/AI-prompting2.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je wilt dat AI de uitleg opstelt vanuit het perspectief van een ICT-supportmedewerker"
         },
         {
@@ -263,7 +263,7 @@
               "feedback": "Denk nog eens na. Je wilt juist concrete voorwaarden geven voor het gewenste resultaat."
             }
           ],
-          "image": "assets/images/ai-prompting-03.png",
+          "image": "assets/images/AI-prompting3.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je prompt is nu: “Je bent ICT-supportmedewerker"
         },
         {
@@ -290,7 +290,7 @@
               "feedback": "Denk nog eens na. Je kunt de bestaande prompt gebruiken als basis en gericht verbeteren."
             }
           ],
-          "image": "assets/images/ai-prompting-04.png",
+          "image": "assets/images/AI-prompting4.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je krijgt een antwoord van AI"
         },
         {
@@ -317,7 +317,7 @@
               "feedback": "Denk nog eens na. Extra tekst is niet automatisch extra duidelijkheid."
             }
           ],
-          "image": "assets/images/ai-prompting-05.png",
+          "image": "assets/images/AI-prompting5.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je wilt dat AI de uitleg steeds in dezelfde duidelijke vorm geeft"
         },
         {
@@ -344,7 +344,7 @@
               "feedback": "Denk nog eens na. Het doel is niet om zoveel mogelijk informatie toe te voegen, maar om gericht de juiste informatie toe te voegen."
             }
           ],
-          "image": "assets/images/ai-prompting-06.png",
+          "image": "assets/images/AI-prompting6.png",
           "imageAlt": "Beeld bij de praktijksituatie: Je hebt de prompt in drie versies verbeterd: eerst “Leg uit hoe je MFA instelt"
         }
       ],
