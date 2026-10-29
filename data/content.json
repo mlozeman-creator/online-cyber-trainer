@@ -471,7 +471,7 @@
         },
         {
           "id": "phishing-001-step-5",
-          "situation": "Je hebt toch op de link geklikt. Je hebt op een link uit een verdacht schoolbericht geklikt en je gebruikersnaam en wachtwoord ingevuld. Even later ontdek je dat het waarschijnlijk phishing was.",
+          "situation": "Je hebt op een link uit een verdacht schoolbericht geklikt en je gebruikersnaam en wachtwoord ingevuld. Even later ontdek je dat het waarschijnlijk phishing was.",
           "question": "Wat doe jij nu?",
           "choices": [
             {
